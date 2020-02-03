@@ -1,0 +1,65 @@
+What are Design Patterns:
+
+Design Patterns are general reusable solution to commonly occurring problems. These are the best practices,
+used by the experienced developers. Patterns are not complete code, but it can use as a template which can
+be applied to a problem.Patterns are re-usable; they can be applied to similar kind of design problem regardless
+to any domain. In other words, we can think of patterns as a formal document which contains recurring design
+problems and its solutions. A pattern used in one practical context can be re-usable in other contexts also.
+
+Christopher had said that “Each pattern describes a problem that occurs over and over again in our environment,
+and then describes the core of the solution to that problem, in such a way that you can use this solution a
+million times over,without ever doing it the same way twice”.
+****************************************************************************************************************
+Why use them: Design patterns make it easier to reuse successful designs and architectures.
+
+Flexibility: It helps to provide the correct level of abstraction due to which objects become loosely coupled
+             to each other which makes your code easy to change.
+
+Reusability: Loosely coupled and cohesive objects and classes can make your code more reusable.
+             This kind of code becomes easy to be tested as compared to the highly coupled code.
+
+Shared Vocabulary: Shared vocabulary makes it easy to share your code and thought with other team members.
+                   It creates more understanding between the team members related to the code.
+
+Capture best practices: Design patterns capture solutions which have been successfully applied to problems. 
+                        By learning these patterns and the related problem, an inexperienced developer learns a lot about software design.
+                        
+ ****************************************************************************************************************                      
+ How to select and use one:
+ 
+ First, you need to identify the kind of design problem you are facing.
+ A design problem can be categorized into creational, structural, or behavioral. Based to this category you can filter
+ the patterns and selects the appropriate one. For example:
+
+1. There are too many instances of a class which represent only a single thing, the value in the properties of the objects are same,
+   and they are only used as read-only: you can select the Singleton pattern for this design problem which ensures only a single
+   instance for the entire application. It also helps to decrease the memory size.
+2. Classes are too much dependent on each other. A Change in one class affects all other dependent classes: you can use Bridge, Mediator,
+   or Command to solve this design problem.
+3. There are two different incompatible interfaces in two different parts of the code, and your need is to convert one interface
+   into another which is used by the client code to make the entire code work: the Adapter pattern fits into this problem.
+****************************************************************************************************************
+Categorization of patterns: 
+
+1. Creational patterns --> Abstract, Factory,Factory Method,Prototype,Singleton
+2. Structural patterns --> Adapter,Bridge,Composite,Decorator,Façade,Flyweight,Proxy
+3. Behavior patterns --> Chain of Responsibility,Command,Iterator,Mediator,Memento,Observer,State,Strategy,Template Method,Visitor
+
+****************************************************************************************************************
+Creational patterns: 
+
+     Creational design patterns are used to design the instantiation process of objects. 
+
+ Structural patterns: 
+    Structural patterns are concerned with how classes and objects are composed to form larger structures.
+    This pattern is particularly useful for making independently developed class libraries work together.
+    
+Behavior patterns:
+    Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects.
+    Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them.
+    havioral object patterns use object composition rather than inheritance. Some describe how a group of peer objects
+    cooperate to perform a task that no single object can carry out by itself. 
+    
+****************************************************************************************************************
+    
+The Adapter pattern lets you to adapt what an object or a class exposes to what another object or class expects. It converts the interface of a class into another interface the client expects. It lets classes work together that couldn’t otherwise because of incompatible interfaces. It allows to fix the interface between the objects and the classes without modifying the objects and the classes directly.
