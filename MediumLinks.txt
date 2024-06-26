@@ -1,0 +1,16 @@
+https://medium.com/design-microservices-architecture-with-patterns/microservices-architecture-2bec9da7d42a
+https://medium.com/edureka/data-structures-algorithms-in-java-d27e915db1c5
+https://medium.com/edureka/java-collections-interview-questions-6d20f552773e
+https://medium.com/edureka/hibernate-interview-questions-78b45ec5cce8
+https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb
+https://blog.devgenius.io/java-8-real-time-coding-interview-questions-and-answers-fce01f3c4080
+https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
+https://medium.com/stream-zero/100-kubernetes-diagnostics-commands-with-kubectl-a0cb7f9f0d6e
+https://levelup.gitconnected.com/learn-these-six-tricks-to-pass-any-data-structures-and-algorithms-dsa-interview-0036d2020b5a
+https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
+https://cloud.spring.io/spring-cloud-stream/reference/html/spring-cloud-stream.html#_content_type_versus_argument_type
+https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model#producer-service
+https://medium.com/@kavyababu/configuring-multiple-datasources-in-spring-boot-application-b35967900434
+https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model
+https://docs.spring.io/spring-cloud-stream/docs/3.2.1/reference/html/spring-cloud-stream.html#consumer-groups
+https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-spring-cloud-stream-19ff3477f6bc
