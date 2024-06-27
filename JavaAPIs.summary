@@ -136,3 +136,69 @@ public static DoubleStream stream(double[] array)
  public static java.util.Map<String,String> getenv()
  public static void gc(){ Runtime.getRuntime().gc();}
 
+
+************************************************************************ interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
+
+ Stream<T> filter(Predicate<? super T> predicate);
+
+ <R> Stream<R> map(Function<? super T, ? extends R> mapper);
+
+ IntStream mapToInt(ToIntFunction<? super T> mapper) Returns an IntStream consisting of the results of applying the given function to the elements of this stream
+ 
+ LongStream mapToLong(ToLongFunction<? super T> mapper)
+
+ DoubleStream mapToDouble(ToDoubleFunction<? super T> mapper)
+
+ <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
+
+ IntStream flatMapToInt(Function<? super T, ? extends IntStream> mapper);
+
+ LongStream flatMapToLong(Function<? super T, ? extends LongStream> mapper)
+
+ Stream<T> distinct(); Returns a stream consisting of the distinct elements (according to Object.equals(Object)) of this stream.
+
+ Stream<T> sorted(); Returns a stream consisting of the elements of this stream, sorted according to natural order
+
+ Stream<T> sorted(Comparator<? super T> comparator);
+
+ Stream<T> peek(Consumer<? super T> action); Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are consumed from the resulting stream.
+
+ Stream<T> limit(long maxSize); Returns a stream consisting of the elements of this stream, truncated to be no longer than maxSize in length.
+
+ Stream<T> skip(long n); Returns a stream consisting of the remaining elements of this stream after discarding the first n elements of the stream
+
+ void forEach(Consumer<? super T> action)
+
+ Object[] toArray();
+
+ reduce(T identity, BinaryOperator<T> accumulator);
+       Integer sum = integers.reduce(0, (a, b) -> a+b);
+        or:
+       Integer sum = integers.reduce(0, Integer::sum);
+
+  <R> R collect(Supplier<R> supplier,BiConsumer<R, ? super T> accumulator,BiConsumer<R, R> combiner);
+     For example, the following will accumulate strings into an ArrayList:
+     List<String> asList = stringStream.collect(ArrayList::new, ArrayList::add,ArrayList::addAll);
+     The following will take a stream of strings and concatenates them into a single string:
+     String concat = stringStream.collect(StringBuilder::new, StringBuilder::append,StringBuilder::append).toString();
+
+   <R, A> R collect(Collector<? super T, A, R> collector);
+       List<String> asList = stringStream.collect(Collectors.toList());
+       Map<String, List<Person>> peopleByCity      = personStream.collect(Collectors.groupingBy(Person::getCity));
+       The following will classify Person objects by state and city, cascading two Collectors together:
+       Map<String, Map<String, List<Person>>> peopleByStateAndCity = personStream.collect(Collectors.groupingBy(Person::getState,Collectors.groupingBy(Person::getCity)));
+
+ default List<T> toList()  Accumulates the elements of this stream into a unmodifiable List
+
+ Optional<T> min(Comparator<? super T> comparator);
+ Optional<T> max(Comparator<? super T> comparator);
+ long count();
+ boolean anyMatch(Predicate<? super T> predicate); Returns whether any elements of this stream match the provided predicate.
+ boolean allMatch(Predicate<? super T> predicate); Returns whether all elements of this stream match the provided predicate.
+ boolean noneMatch(Predicate<? super T> predicate); Returns whether no elements of this stream match the provided predicate.
+ Optional<T> findFirst();
+ Optional<T> findAny();
+ public static<T> Stream<T> empty()  Returns an empty sequential Stream.
+ public static<T> Stream<T> of(T t)  Returns a sequential Stream containing a single element.
+ public static<T> Stream<T> of(T... values)  Returns a sequential ordered stream whose elements are the specified values.
+ public static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
