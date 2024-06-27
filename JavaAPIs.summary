@@ -1,6 +1,6 @@
 **********************************************************   java.lang.String  *****************************************************************************************************************************
 
- 0.    public char[] toCharArray()
+ 0.   public char[] toCharArray()
  1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument
  2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.
  3.   public int length()
@@ -118,3 +118,21 @@ public static DoubleStream stream(double[] array)
   public static <E> SortedSet<E> emptySortedSet()
   public static final <T> List<T> emptyList()
   public static final <K,V> Map<K,V> emptyMap()
+
+
+*************************************************************************   java.lang.System  *******************************************************************************
+
+
+ public static native long currentTimeMillis()
+ public static native long nanoTime();
+ public static Properties getProperties()   keys  java.version,user.name,user.home,user.dir,file.separator,path.separator,line.separator
+ public static String lineSeparator()
+ public static void setProperties(Properties props)
+ public static String setProperty(String key, String value)
+ public static String getProperty(String key)
+ public static String getProperty(String key, String default)
+
+ public static String getenv(String name) Gets the value of the specified environment variable
+ public static java.util.Map<String,String> getenv()
+ public static void gc(){ Runtime.getRuntime().gc();}
+
