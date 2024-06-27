@@ -1,0 +1,50 @@
+****************    java.lang.String  **************************
+
+ 0.    public char[] toCharArray()
+ 1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument
+ 2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.
+ 3.   public int length()
+ 4.   public boolean isEmpty()
+ 5.   public char charAt(int index)
+ 6.   public boolean contentEquals(CharSequence cs)
+ 7.   public boolean equalsIgnoreCase(String anotherString)
+ 8.   public int compareTo(String anotherString)
+ 9.   public boolean startsWith(String prefix, int toffset) offset>=0  Tests if the substring of this string beginning at the specified index starts with the specified prefix
+ 10.  public boolean startsWith(String prefix) 
+ 11.  public boolean endsWith(String suffix)
+ 12.  public int indexOf(int ch)
+ 13.  public int lastIndexOf(int ch)
+ 14.  public int indexOf(String str)   Returns the index within this string of the first occurrence of the specified substring.
+ 15.  public int lastIndexOf(String str)
+ 16.  public String substring(int beginIndex)  0<=  beginIndex <= java.lang.Integer.MAX_VALUE
+ 17   public String substring(int beginIndex, int endIndex)  0<=   beginIndex/endIndex <= java.lang.Integer.MAX_VALUE
+ 18.  public CharSequence subSequence(int beginIndex, int endIndex)
+ 19.  public String concat(String str)
+ 20.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all occurrences of oldChar in this string with newChar
+ 21.  public boolean contains(CharSequence s)
+ 22.  public boolean matches(String regex)
+ 23.  public String replaceAll(String regex, String replacement)
+ 24.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
+ 25.  public String replace(CharSequence target, CharSequence replacement)
+ 26.  public static String join(CharSequence delimiter, CharSequence... elements)
+ 27.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
+         List<String> strings = List.of("Java", "is", "cool");  String message = String.join(" ", strings);  // message returned is: "Java is cool"    Set<String> strings =      new LinkedHashSet<>(List.of("Java", "is", "very", "cool"));  String message = String.join("-", strings);  // message returned is: "Java-is-very-cool"
+ 28.  public String toLowerCase()
+ 30.  public String toUpperCase()
+ 31.  public String trim()
+ 32.  public boolean isBlank()   Returns true if the string is empty or contains only white space codepoints, otherwise false.
+ 33.  public static String format(String format, Object... args)
+
+ 
+ 34.  public static String valueOf(char data[])
+      public static String valueOf(Object obj)  Returns the string representation of the Object argument  or "null"
+      public static String valueOf(boolean b)
+      public static String valueOf(char c) 
+      public static String valueOf(int i)
+      public static String valueOf(long l)
+      public static String valueOf(float f)
+      public static String valueOf(double d)
+      
+ 35.  public native String intern(); Returns a canonical representation for the string object. A pool of strings, initially empty, is maintained privately by the class String.
+ 12.  public int hashCode()
+ 13. public int indexOf(int ch)
