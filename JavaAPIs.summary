@@ -212,3 +212,36 @@ public static DoubleStream stream(double[] array)
    Object[] toArray()
    <T> T[] toArray(T[] a)
    boolean add(E e)
+   default void addLast(E e)
+   default void addFirst(E e)
+   void add(int index, E element);
+   E get(int index)
+   default E getFirst()
+   default E getLast()
+   int indexOf(Object o);
+   int lastIndexOf(Object o);
+   default E removeFirst()
+   default E removeLast()
+   boolean remove(Object o)  removes first occureence if exists else no change 
+   boolean containsAll(Collection<?> c);
+   boolean addAll(Collection<? extends E> c);   adds all elements of collection at end 
+   boolean addAll(int index, Collection<? extends E> c); adds all elements of collection at specified index and shifts the elements of original list
+   boolean removeAll(Collection<?> c);   Removes from this list all of its elements that are contained in the specified collection 
+   boolean retainAll(Collection<?> c);   removes from this list all of its elements that are not contained in the specified collection.
+   default void replaceAll(UnaryOperator<E> operator)  Replaces each element of this list with the result of applying the operator to that element.
+   default void sort(Comparator<? super E> c)
+   ListIterator<E> listIterator();
+   E set(int index, E element);
+   List<E> subList(int fromIndex, int toIndex); toIndex exclusive
+   void clear();
+   static <E> List<E> copyOf(Collection<? extends E> coll)  retruns an unmodifiable list containing elements of given collection
+   static <E> List<E> of(E... elements) Returns an unmodifiable list containing an arbitrary number of elements
+
+
+
+******************************************************************* java.util.Iterator  interface  *******************************
+
+ boolean hasNext()
+ E next();
+ default void remove()
+ default void forEachRemaining(Consumer<? super E> action)
