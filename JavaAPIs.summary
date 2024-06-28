@@ -239,9 +239,22 @@ public static DoubleStream stream(double[] array)
 
 
 
-******************************************************************* java.util.Iterator  interface  *******************************
+******************************************************************* java.util.Iterator  interface  ************************************************************
 
  boolean hasNext()
  E next();
  default void remove()
  default void forEachRemaining(Consumer<? super E> action)
+
+
+*******************************************************************    interface java.util.ListIterator<E> extends Iterator<E> **********************************
+
+ boolean hasNext();
+ E next();  NoSuchElementException if the iteration has no next element
+ boolean hasPrevious();
+ E previous();  NoSuchElementException if the iteration has no previous   element
+ int nextIndex();
+ int previousIndex();
+ void add(E e);
+ void remove();
+ void set(E e); Replaces the last element returned by next or previous with the specified element
