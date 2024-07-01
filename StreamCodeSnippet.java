@@ -32,8 +32,16 @@ given a stream of Employee, to accumulate the employees in each department that 
  For example, one could adapt the toList() collector to always produce an immutable list with:
  List<String> list = people.stream().collect(collectingAndThen(toList(),Collections::unmodifiableList));
 
- Comparator<String> byLength = Comparator.comparing(String::length);  Map<City, String> longestLastNameByCity    = people.stream().collect(groupingBy(Person::getCity,
-                                                                                                                                                      reducing("",Person::getLastName,BinaryOperator.maxBy(byLength))));
+ show Highest salary employee name  else  show name 
+ String maxSalaryEmp = employeeList.stream().collect(
+                                             Collectors.collectingAndThen( Collectors.maxBy(Comparator.comparing(Employee::getSalary)),(Optional<Employee> emp)-> emp.isPresent() ? emp.get().getName() : "none") );
+    System.out.println("Max salaried employee's name: "+ maxSalaryEmp);
+
+
+
+ Comparator<String> byLength = Comparator.comparing(String::length);
+ Map<City, String> longestLastNameByCity    = people.stream().collect(groupingBy(Person::getCity,
+                                                                                                reducing("",Person::getLastName,BinaryOperator.maxBy(byLength))));
 
 The following produces a Map mapping students to their grade point average:
  Map<Student, Double> studentToGPA    = students.stream().collect(toMap(Function.identity(),student -> computeGPA(student)));
