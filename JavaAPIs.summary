@@ -80,6 +80,7 @@
 
 
 public static int[] copyOf(int[] original, int newLength)
+public static <T> T[] copyOf(T[] original, int newLength)
 public static <T> List<T> asList(T... a)
 public static <T> Stream<T> stream(T[] array)
 public static IntStream stream(int[] array)
