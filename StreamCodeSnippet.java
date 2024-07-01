@@ -11,6 +11,39 @@ java.util.stream.Collectors Implementations of Collector that implement various 
    // Partition students into passing and failing  Map<Boolean, List<Student>> passingFailing = students.stream().collect(Collectors.partitioningBy(s -> s.getGrade() >= PASS_THRESHOLD));
 
 
+List<Integer> list = Stream.of(12, 13, 14, 15)
+    .collect(
+    //Supplier
+    () -> new ArrayList<Integer>(),
+    //Accumulator
+    (l, e) -> l.add(e),
+    //Combiner
+    (l, ar) -> l.addAll(ar)
+);        
+  
+   String longestName = people.stream()
+    .collect(collectingAndThen(
+        // Encounter all the Person objects 
+        // Map them to their first names
+        // Collect those names in a list
+        mapping(
+            Person::getFirstName,
+            toList()
+        ),
+        // Stream those names again
+        // Find the longest name
+        // If not available, return "?"
+        l -> {
+            return l
+                .stream()
+                .collect(maxBy(
+                    comparing(String::length)
+                ))
+                .orElse("?");
+           }
+       )
+    );
+
 
    Adapts a Collector accepting elements of type U to one accepting elements of type T by applying a mapping function to each input element before accumulation.
       public static <T, U, A, R>   Collector<T, ?, R> mapping(Function<? super T, ? extends U> mapper,
@@ -19,24 +52,38 @@ java.util.stream.Collectors Implementations of Collector that implement various 
    Map<City, Set<String>> lastNamesByCity    = people.stream().collect(groupingBy(Person::getCity,
                                                                                   mapping(Person::getLastName, toSet())));
 
+   Below employees being grouped as per their department. However, this time we will store the grouped elements in a Set 
+    and tell the grouping collector to store the grouped employees in a TreeMap instance instead of the default HashMap instance 
+   Map<Department,Set<Employee>> employeeMap
+      = employeeList.stream()
+        .collect(Collectors.groupingBy(Employee::getDepartment, TreeMap::new, Collectors.toSet()));
+    System.out.println("Employees grouped by department");
+    employeeMap.forEach((Department key, Set<Employee> empSet) -> System.out.println(key +" -> "+empSet));
+    
+
 
 The flatMapping() collectors are most useful when used in a multi-level reduction, such as downstream of a groupingBy or partitioningBy. 
   For example, given a stream of Order, to accumulate the set of line items for each customer:
  Map<String, Set<LineItem>> itemsByCustomerName    = orders.stream().collect(groupingBy(Order::getCustomerName, 
                                                                                              flatMapping(order -> order.getLineItems().stream(),toSet())));
 
-given a stream of Employee, to accumulate the employees in each department that have a salary above a certain threshold:
+ Given a stream of Employee, to accumulate the employees in each department that have a salary above a certain threshold:
  Map<Department, Set<Employee>> wellPaidEmployeesByDepartment    = employees.stream().collect(groupingBy(Employee::getDepartment,         
                                                                                                           filtering(e -> e.getSalary() > 2000,toSet())));
 
  For example, one could adapt the toList() collector to always produce an immutable list with:
  List<String> list = people.stream().collect(collectingAndThen(toList(),Collections::unmodifiableList));
 
- show Highest salary employee name  else  show name 
+ Show Highest salary employee name  else  show name 
  String maxSalaryEmp = employeeList.stream().collect(
                                              Collectors.collectingAndThen( Collectors.maxBy(Comparator.comparing(Employee::getSalary)),(Optional<Employee> emp)-> emp.isPresent() ? emp.get().getName() : "none") );
-    System.out.println("Max salaried employee's name: "+ maxSalaryEmp);
+System.out.println("Max salaried employee's name: "+ maxSalaryEmp);
 
+Find the average salary of all employees using averagingDouble collector  , Print the average salary after formatting it using DecimalFormat.
+ String avgSalary = employeeList.stream().collect(
+        Collectors.collectingAndThen(
+            Collectors.averagingDouble(Employee::getSalary),
+            averageSalary -> new DecimalFormat("'$'0.00").format(averageSalary)));
 
 
  Comparator<String> byLength = Comparator.comparing(String::length);
@@ -369,6 +416,43 @@ Age : 35
 
 
 
+24. Given a list of  Students  find the  highest subject per student   
+    Student { 
+        String name 
+        List<Subject> subjects 
+       Subject getHighest(){ //subject having highest marks 
+        
+            Subject highest = subjects.stream.collect(
+               collectingAndThen(
+                  Collectors.maxBy(
+                      Comparator.comparing(
+                         Subject::getMarks
+                     )
+                 ),
+                  m -> m.orElseThrow(
+                    RuntimeException::new
+                 )
+             )
+          );
+            return highest;
+    }
+}
+   
+
+public class Subject implements Comparable {
+    private final String subName;
+    private final BigDecimal marks;
+    private final int year ;
+    
+    //Constructor and getters...
+    
+    @Override
+    public int compareTo(Subject other) {
+        return Comparator.comparing(Subject::getMarks)
+            .compare(this, other);
+    }
+}
+        
 
 
 
