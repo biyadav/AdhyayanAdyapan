@@ -196,3 +196,186 @@ And the following produces a ConcurrentMap mapping a unique identifier to studen
  Output:
  Average Salary = 21141.235294117647
  Total Salary = 359401.0
+
+9. List down the employees of each department.
+
+    public static void listDownDept(List<Employee> employeeList) {
+         Map<String, List<Employee>> empList = employeeList.stream()
+                                                 .collect(Collectors
+                                                         .groupingBy(Employee::getDepartment));
+
+         Set<Entry<String, List<Employee>>> entrySet = empList.entrySet();
+
+         for (Entry<String, List<Employee>> entry : entrySet) 
+         {
+             System.out.println("--------------------------------------");    
+             System.out.println("Employees In "+entry.getKey() + " : ");
+             System.out.println("--------------------------------------");
+
+             List<Employee> list = entry.getValue();
+             for (Employee e : list) 
+             {
+                 System.out.println(e.getName());
+             }
+         }
+     }
+
+ Output:
+ Employees In Product Development :
+ ————————————–
+ Murali Gowda
+ Wang Liu
+ Nitin Joshi
+ Sanvi Pandey
+ Anuj Chettiar
+ ————————————–
+ Employees In Security And Transport :
+ ————————————–
+ Iqbal Hussain
+ Jaden Dough
+ ————————————–
+ Employees In Sales And Marketing :
+ ————————————–
+ Paul Niksui
+ Amelia Zoe
+ Nicolus Den
+
+10. Find out the highest experienced employees in the organization
+
+    ublic static void seniorEmp(List<Employee> employeeList) {
+        Optional<Employee> seniorEmp = employeeList.stream()
+                                        .sorted(Comparator
+                                                .comparingInt(Employee::getYearOfJoining)).findFirst();
+
+        Employee seniorMostEmployee = seniorEmp.get();
+
+        System.out.println("Senior Most Employee Details :");
+        System.out.println("----------------------------");
+        System.out.println("ID : "+seniorMostEmployee.getId());
+        System.out.println("Name : "+seniorMostEmployee.getName());
+        System.out.println("Age : "+seniorMostEmployee.getAge());
+    }
+
+Output:
+Senior Most Employee Details :
+—————————-
+ID : 177
+Name : Manu Sharma
+Age : 35
+
+11. Count the occurrences of each word in a Array of strings using streams.
+
+    public static void main(String[] args) {
+    String[] words= {"apple", "banana", "apple", "orange", "banana", "apple"};
+    Map<String, Long> collect = Arrays.asList(words).stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+    System.out.println(collect);
+  
+   }
+  }
+
+12.  Write a program to find the longest string in a list of strings using streams.
+   
+    List<String> list = Arrays.asList("apple", "banana", "orange", "kiwi", "strawberry");
+   Optional<String> max = list.stream().max(Comparator.comparingInt(String::length));
+   System.out.println(max.get());
+
+
+
+13. Given a list of integers, remove duplicates and keep them in the descending order using streams.
+
+    List<Integer> numbers = Arrays.asList(1, 2, 3, 2, 4, 5, 1);
+    List<Integer> collect = numbers.stream().distinct().sorted(Comparator.comparingInt(Integer::intValue).reversed()).collect(Collectors.toList());
+    System.out.println(collect);
+14. Write a program to find the average of a list of doubles using streams.
+
+    List<Double> doubles = Arrays.asList(1.2, 3.5, 2.8, 4.1, 5.7);
+     OptionalDouble average = doubles.stream().mapToDouble(Double::doubleValue).average();
+     System.out.println(average.getAsDouble());
+
+15. Merge two lists of integers and remove duplicates using streams.
+
+    List<Integer> list2 = Arrays.asList(3, 4, 5);
+    List<Integer> collect = Stream.concat(list1.stream(), list2.stream()).distinct().collect(Collectors.toList());
+    System.out.println(collect);
+
+16. Given a list of strings, concatenate them into a single string using streams.
+
+    List<String> list = Arrays.asList("Hello", " ", "world", "!");
+    String collect = list.stream().collect(Collectors.joining());
+    System.out.println(collect);
+17. Write a program to find the first non-repeating character in a string using streams.
+
+    String str = "abacdbef";
+ 
+     
+     Optional<Character> firstNonRepeatingChar = str.chars()
+                .mapToObj(c -> (char) c)
+                .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting()))
+                .entrySet()
+                .stream()
+                .filter(e -> e.getValue() == 1L)
+                .map(Map.Entry::getKey)
+                .findFirst();
+     System.out.println(firstNonRepeatingChar.get());
+
+18. Given a list of strings, remove all strings that contain a specific character using streams.
+
+     List<String> list = Arrays.asList("apple", "banana", "orange", "kiwi");
+     char specificChar = 'a';
+     List<String> collect = list.stream().filter(s->!s.contains(String.valueOf(specificChar))).collect(Collectors.toList());
+     System.out.println(collect);
+
+19. Given a list of integers, partition them into two groups: odd and even, using streams.
+
+
+    List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    Map<Boolean, List<Integer>> oddEvenPartition = numbers.stream()
+                             .collect(Collectors.partitioningBy(n -> n % 2 == 0));
+     System.out.println(oddEvenPartition);
+
+20. Given an array of integers, find the kth largest element.
+
+   List<Integer> list = Arrays.asList(1, 12, 44, 32, 52, 81, 59, 84, 72, 37);
+  int k = 4;
+  Integer num = list.stream().sorted(Comparator.reverseOrder()).limit(k).skip(k - 1).findFirst().orElse(-1);
+  System.out.println(num);
+
+21. Given a list of strings, find the count of strings starting with a vowels.
+
+  List<String> list = Arrays.asList("apple", "banana", "orange", "kiwi", "strawberry");
+  long count = list.stream().filter(s -> "aeiouAEIOU".contains(String.valueOf(s.charAt(0)))).count();
+  System.out.println(count);
+
+22. Given a list of strings, find the longest palindrome string.
+
+     List<String> list = List.of("level", "hello", "radar", "world", "madam", "java", "Malayalam");
+    String str = list.stream().filter(s -> new StringBuilder(s).reverse().toString().equalsIgnoreCase(s))
+      .max(Comparator.comparingInt(String::length)).orElse("");
+    System.out.println(str);
+
+23. Given a list of integers, find the product of all non-negative integers.
+
+   List<Integer> integerList = Arrays.asList(4, 5, -6, 7, -1, 2, -3);
+  long longNumber = integerList.stream().filter(num -> num >= 0).mapToLong(Integer::longValue).reduce(1, (a, b) -> a * b);
+  System.out.println(longNumber);
+
+
+
+
+
+
+
+
+collect()
+forEach()
+forEachOrdered()
+findAny()
+findFirst()
+toArray()
+reduce()
+count()
+min()
+max()
+anyMatch()
+allMatch()
+noneMatch()
