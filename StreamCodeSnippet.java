@@ -417,7 +417,9 @@ Age : 35
 
 
 
-24. Given a list of  Students  find the  highest subject per student   
+24.
+    https://stackabuse.com/guide-to-java-8-collectors-collectingandthen/
+    Given a list of  Students  find the  highest subject per student   
     Student { 
         String name 
         List<Subject> subjects 
@@ -443,7 +445,7 @@ Age : 35
 public class Subject implements Comparable {
     private final String subName;
     private final BigDecimal marks;
-    private final int year ;
+    private final int examYear ;
     
     //Constructor and getters...
     
