@@ -242,13 +242,26 @@ public static DoubleStream stream(double[] array)
   
 
 
-
 ******************************************************************* java.util.Iterator  interface  ************************************************************
 
   boolean hasNext()
   E next();
   default void remove()
   default void forEachRemaining(Consumer<? super E> action)
+
+
+************************************************************* java.lang.Iterable<T>  ****************************************************************************
+Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
+   Collection<String> collection = ...; 
+   for (String element: collection) {
+    // do someting with element
+   }
+
+
+Implementing this interface allows an object to be the target of the enhanced for statement (sometimes called the "for-each loop" statement)
+ default void forEach(Consumer<? super T> action)
+ Iterator<T> iterator();
+ default Spliterator<T> spliterator()
 
 
 *******************************************************************    interface java.util.ListIterator<E> extends Iterator<E> **********************************
@@ -311,3 +324,28 @@ public static DoubleStream stream(double[] array)
     static <K, V> Entry<K, V> entry(K k, V v)  returns an Entry containing the specified key and value
     static <K, V> Map<K, V> ofEntries(Entry<? extends K, ? extends V>... entries)  Returns an unmodifiable map containing keys and values extracted from the given entries
     static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)  Returns an unmodifiable Map containing the entries of the given Map 
+
+
+
+
+*************************************************************Functional Interfaces ******************************************************************************
+
+
+java.util.function.Consumer<T>  void accept(T t);   default Consumer<T> andThen(Consumer<? super T> after)
+java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An Enumeration can be converted into an Iterator by using the Enumeration.asIterator method.
