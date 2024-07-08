@@ -36,6 +36,7 @@
  33.  public static String format(String format, Object... args)
       String.format("Missing mandatory field %s.", errorFields);
       String.format("current size %d is less than fixed size %d",curSize, array.length)
+      String.format("Input value is not a multiple of referenceSize :  %d. Size: %d", referenceSize, inputSize))
  34.  public static String valueOf(char data[])
       public static String valueOf(Object obj)  Returns the string representation of the Object argument  or "null"
       public static String valueOf(boolean b)
