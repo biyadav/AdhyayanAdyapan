@@ -6,7 +6,7 @@ https://medium.com/@javainterviewquestions/collections-in-java-interview-questio
 https://medium.com/javarevisited/frequently-asked-java-concept-programs-part3-hashmap-internal-working-563bb13bf8d0
 https://medium.com/@veenaraofr/frequently-asked-java-concept-programs-part2-8f0328bed9ef
 
-
+https://www.javabrahman.com/java-8/java-8-internal-iterators-vs-external-iterators/
 
 ******************
 Java 8 Stream 
