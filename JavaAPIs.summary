@@ -34,8 +34,8 @@
  31.  public String trim()
  32.  public boolean isBlank()   Returns true if the string is empty or contains only white space codepoints, otherwise false.
  33.  public static String format(String format, Object... args)
-
- 
+      String.format("Missing mandatory field %s.", errorFields);
+      String.format("current size %d is less than fixed size %d",curSize, array.length)
  34.  public static String valueOf(char data[])
       public static String valueOf(Object obj)  Returns the string representation of the Object argument  or "null"
       public static String valueOf(boolean b)
