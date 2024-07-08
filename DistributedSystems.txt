@@ -1,10 +1,10 @@
+
+https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
 https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
 https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
 https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
-
-
 
 
 
@@ -20,11 +20,32 @@ https://medium.com/design-microservices-architecture-with-patterns/microservices
 https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb
 
 
+@SpringBootApplication
+ @RestController
+ @RequestMapping
+ @GetMapping
+ @PostMapping
+ @Autowired
+ @Component
+ @Service
+ @Repository
+ @Configuration
+ @Bean
+ @Primary
+ @Qualifier
+ @Value
+ @Profile
+ @EnableScheduling
+ @EnableAsync
+
 
 
 ******************************************************************* Spring & Spring Boot *******************************************************************************************
 
 
+https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2
+https://medium.com/@veenaraofr/rest-and-microservices-interview-questions-10b420ac07ef
+https://medium.com/@javadzone/top-50-spring-boot-interview-questions-and-answers-86644bef03e2
 https://medium.com/@akintopbas96/refactoring-java-spring-boot-code-eliminating-if-else-statements-for-cleaner-extensible-logic-f1314cf9724e
 https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-freshers-fc9392e232bd
 https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
@@ -48,6 +69,19 @@ https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-sprin
 
 ****************************************************************  DESIGNING XYZ ******************************************************************************************
 https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
+https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
+https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03
+https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3
+https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418
+https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2
+https://medium.com/@ishwarya1011.hidkimath/system-design-architect-a-world-wide-video-distribution-system-6b03b5b984e9
+https://javascript.plainenglish.io/how-to-design-a-hotel-booking-system-56ef18b6adfc
+https://medium.com/@ishwarya1011.hidkimath/system-design-music-streaming-services-64df330b5624
+https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1
+https://medium.com/@vaibhavkansagara/high-level-system-design-for-amazon-1aa18f3efd15
+https://medium.com/@vaibhavkansagara/distributed-cache-system-design-2ee5e25a5000
+https://medium.com/@rickymondal/rate-limiter-c647b40471b8
+https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66
 
 
 
@@ -65,5 +99,9 @@ https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50b
 
 ************************************************************************************************************************************************************************
 
-
+https://dev-shivansh95.medium.com/low-level-design-ecommerce-ff6454c9827f
+https://dev-shivansh95.medium.com/low-level-design-for-bookmyshow-8db8465e560a
+https://dev-shivansh95.medium.com/low-level-design-for-twitter-d254847880cb
+https://dev-shivansh95.medium.com/web-crawler-system-design-db15e01264d4
+https://sumedhakhatter.medium.com/designing-a-notification-system-d8e539003b81
 
