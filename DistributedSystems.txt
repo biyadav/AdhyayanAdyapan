@@ -1,4 +1,10 @@
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
+https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
+https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
+https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
+https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
+
+
 
 
 
@@ -8,14 +14,23 @@ https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffed
 *****************************************************************  MicroServices **************************************************************************************************
 
 
+https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
+https://medium.com/@craftingcode/top-microservices-interview-questions-and-answers-for-2024-2535cd61d17a
 https://medium.com/design-microservices-architecture-with-patterns/microservices-architecture-2bec9da7d42a
-
 https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb
 
 
 
 
 ******************************************************************* Spring & Spring Boot *******************************************************************************************
+
+
+https://medium.com/@akintopbas96/refactoring-java-spring-boot-code-eliminating-if-else-statements-for-cleaner-extensible-logic-f1314cf9724e
+https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-freshers-fc9392e232bd
+https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
+https://anushasp07.medium.com/interview-questions-on-spring-boot-2-b25fb0c54d83
+https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-experienced-51fcb04eec17
+https://medium.com/thefreshwrites/exception-handling-spring-boot-rest-api-c2656b575fee
 https://cloud.spring.io/spring-cloud-stream/reference/html/spring-cloud-stream.html#_content_type_versus_argument_type
 https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model#producer-service
 https://medium.com/@kavyababu/configuring-multiple-datasources-in-spring-boot-application-b35967900434
@@ -51,6 +66,4 @@ https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50b
 ************************************************************************************************************************************************************************
 
 
-https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
-https://medium.com/stream-zero/100-kubernetes-diagnostics-commands-with-kubectl-a0cb7f9f0d6e
-https://medium.com/edureka/hibernate-interview-questions-78b45ec5cce8
+
