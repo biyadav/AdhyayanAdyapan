@@ -1,10 +1,13 @@
 
+https://medium.com/@javatechie/java-streams-features-exploring-hidden-methods-for-developers-72c89e641b03
+https://blog.devops.dev/java8-stream-api-613f66c87b2c
 https://medium.com/@bhangalekunal2631996/java-stream-api-coding-interview-questions-and-answers-2a212505e1c6
 https://blog.devgenius.io/java-8-real-time-coding-interview-questions-and-answers-fce01f3c4080
 https://medium.com/thefreshwrites/java-8-stream-api-interview-questions-and-answers-dd559ebffb35
 https://blog.devgenius.io/java-8-interview-questions-and-answers-1-19ad105123f7
 https://medium.com/thefreshwrites/java-8-stream-api-interview-questions-and-answers-dd559ebffb35
 https://medium.com/@abhishek.talakeriv/java8-stream-api-commonly-asked-interview-questions-db26d7328131
+https://stackabuse.com/guide-to-java-8-collectors-collectingandthen/
 
 
 https://medium.com/edureka/java-collections-interview-questions-6d20f552773e
