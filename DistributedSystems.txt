@@ -4,6 +4,7 @@ System Design Guide
 https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
 https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
+https://medium.com/@_sidharth_m_/understanding-cap-theorem-for-distributed-systems-b4eda255f803
 https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
 https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
@@ -80,7 +81,9 @@ https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-sprin
          DESIGNING XYZ
 ***********************************************************************************
 https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
+https://dilipkumar.medium.com/twitter-system-design-df991184c9a7
 https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
+https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392
 https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03
 https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3
 https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418
@@ -111,6 +114,8 @@ https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66
 **************************************************************************************
   LLD of System Design 
 ***************************************************************************************
+
+https://medium.com/@madhankumaravelu93/low-level-system-design-parking-lot-design-part-i-7567d510da1d
 
 https://dev-shivansh95.medium.com/low-level-design-ecommerce-ff6454c9827f
 https://dev-shivansh95.medium.com/low-level-design-for-bookmyshow-8db8465e560a
