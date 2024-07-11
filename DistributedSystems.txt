@@ -3,6 +3,7 @@ System Design Guide
 *******************************************************
 
 https://www.youtube.com/c/codeKarle
+https://www.youtube.com/@TechDummiesNarendraL
 
 
 
