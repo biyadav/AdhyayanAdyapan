@@ -2,6 +2,10 @@
 System Design Guide 
 *******************************************************
 
+https://www.youtube.com/c/codeKarle
+
+
+
 https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
 https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
 https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d
