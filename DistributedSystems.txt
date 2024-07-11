@@ -1,6 +1,19 @@
 *******************************************************
 System Design Guide 
 *******************************************************
+
+https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
+https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
+https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d
+https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-4-cache-5703c8a60499
+https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f
+
+
+https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
+https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
+https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+
 https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
 https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
@@ -17,7 +30,11 @@ https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffed
 **********************************************************
         MicroServices
 **********************************************************
-
+https://phaneendrakn.medium.com/microservices-design-patterns-series-part-1-5-2acf7797421e
+https://phaneendrakn.medium.com/microservices-design-patterns-series-part-2-5-e005e168b8b6
+https://phaneendrakn.medium.com/microservices-design-patterns-series-part-3-5-decd94e7e811
+https://phaneendrakn.medium.com/microservices-design-patterns-series-part-4-5-bc8bce476226
+https://phaneendrakn.medium.com/microservices-design-patterns-series-part-5-5-6229686ba59d
 
 https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
 https://medium.com/@craftingcode/top-microservices-interview-questions-and-answers-for-2024-2535cd61d17a
@@ -52,6 +69,8 @@ https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world
 https://www.youtube.com/watch?v=cZYJHIgmGaY&t=3392s
 https://www.youtube.com/watch?v=-_tPeb3VE6w&t=1073s
 
+https://medium.com/@ands0927/spring-boot-pessimistic-lock-f773bc120e00
+
 
 https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2
 https://medium.com/@veenaraofr/rest-and-microservices-interview-questions-10b420ac07ef
@@ -83,10 +102,14 @@ https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-sprin
 https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
 https://dilipkumar.medium.com/twitter-system-design-df991184c9a7
 https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
+https://medium.com/@krishnadalam/high-level-design-hld-for-a-food-delivery-app-3bdd9dd9a72d
+https://medium.com/@tahir.rauf/system-design-uber-01e72f6d7444
 https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392
 https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03
 https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3
 https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418
+https://medium.com/@jyoti1308/designing-payment-and-fraud-detection-service-82e3d8e89892
+https://dilipkumar.medium.com/url-shortener-system-design-f5817b7e22ce
 https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2
 https://medium.com/@ishwarya1011.hidkimath/system-design-architect-a-world-wide-video-distribution-system-6b03b5b984e9
 https://javascript.plainenglish.io/how-to-design-a-hotel-booking-system-56ef18b6adfc
