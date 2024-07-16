@@ -327,7 +327,7 @@ Implementing this interface allows an object to be the target of the enhanced fo
     static <K, V> Map<K, V> copyOf(Map<? extends K, ? extends V> map)  Returns an unmodifiable Map containing the entries of the given Map 
 
 
-
+   Map<String, Object> reverseTreeMap = new TreeMap<String, Object>(Collections.reverseOrder())
 
 *************************************************************Functional Interfaces ******************************************************************************
 
