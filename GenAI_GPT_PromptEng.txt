@@ -1,0 +1,2 @@
+https://github.com/microsoft/azure-openai-in-a-day-workshop
+https://github.com/microsoft/AI-For-Beginners/tree/main/lessons
