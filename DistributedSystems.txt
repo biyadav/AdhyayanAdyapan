@@ -1,6 +1,8 @@
 *******************************************************
 System Design Guide 
 *******************************************************
+https://refactoring.guru/design-patterns/proxy
+https://github.com/biyadav/system-design-101
 https://scaleyourapp.com/
 https://www.youtube.com/c/codeKarle
 https://www.youtube.com/@TechDummiesNarendraL
