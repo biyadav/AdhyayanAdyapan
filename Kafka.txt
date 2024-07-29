@@ -5,3 +5,12 @@ to set a default value for all
 
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.interval.ms
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.records
+
+
+*********************************************************************************************************************
+KAFKA CONNECT
+
+https://kafka.apache.org/documentation/#connectconfigs
+https://rmoff.net/2019/08/15/reset-kafka-connect-source-connector-offsets/
+https://rmoff.net/2020/01/16/changing-the-logging-level-for-kafka-connect-dynamically/
+*********************************************************************************************************************
