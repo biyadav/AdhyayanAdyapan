@@ -1,0 +1,7 @@
+Slides PDF: https://couchbase-academy-courses.s3.eu-west-2.amazonaws.com/CD215/current/student/cd215-slides.zip 
+
+Lab document PDF: https://couchbase-academy-courses.s3.eu-west-2.amazonaws.com/CD215/current/student/cd215-labbook.pdf 
+
+Lab instructions HTML: https://couchbase-academy-courses.s3.eu-west-2.amazonaws.com/CD215/current/student/cd215-lab-instructions/index.html 
+
+Lab files: https://couchbase-academy-courses.s3.eu-west-2.amazonaws.com/CD215/current/student/cd215-labs.zip 
