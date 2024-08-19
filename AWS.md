@@ -1,0 +1,2 @@
+(https://explore.skillbuilder.aws/learn/public/learning_plan/view/2068/generative-ai-learning-plan-for-developers)
+(https://learn.microsoft.com/en-gb/training/paths/develop-ai-solutions-azure-openai/)
