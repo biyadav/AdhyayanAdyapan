@@ -48,7 +48,7 @@ https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-an
 https://medium.com/@craftingcode/top-microservices-interview-questions-and-answers-for-2024-2535cd61d17a
 https://medium.com/design-microservices-architecture-with-patterns/microservices-architecture-2bec9da7d42a
 https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb
-
+https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
 
 @SpringBootApplication
  @RestController
