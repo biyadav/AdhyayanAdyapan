@@ -60,6 +60,8 @@ https://medium.com/@codingwinner/top-200-java-interview-questions-in-2024-eb8f0e
 ***************************************************************************************************
                           Virtual Thread 
 ***************************************************************************************************
+https://www.youtube.com/live/QxxG66eQoTc?si=nzKewvCrGTotlDop
+
 https://www.happycoders.eu/java/structured-concurrency-structuredtaskscope/
 
 https://www.linkedin.com/pulse/virtual-threads-new-solution-improve-concurrent-api-calls-liam-ford-qdakc/
