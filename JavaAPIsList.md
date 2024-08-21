@@ -1,5 +1,6 @@
-**********************************************************   java.lang.String  *****************************************************************************************************************************
-
+*****************************************************************************************************************************
+                                           java.lang.String
+*****************************************************************************************************************************
  0.   public char[] toCharArray()
  1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument
  2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.
@@ -50,8 +51,10 @@
  12.  public int hashCode()
  13. public int indexOf(int ch)
 
+*****************************************************************************************************************************
+                                           java.util.Arrays 
+*****************************************************************************************************************************
 
-***************************************************************************     java.util.Arrays    **************************************************************
 
  public static void sort(Object[] a)  Sorts the specified array of objects into ascending order, according to the natural ordering of its elements. All elements in the array must implement the Comparable interface.
  public static void sort(int[] a)
@@ -89,8 +92,9 @@ public static LongStream stream(long[] array)
 public static DoubleStream stream(double[] array)
 
 
-
-******************************************************************************     java.util.Collections  *************************************************************************************
+*****************************************************************************************************************************
+                                           java.util.Collections
+*****************************************************************************************************************************
 
   public static <T extends Comparable<? super T>> void sort(List<T> list)  orts the specified list into ascending order, according to the natural ordering of its elements. All elements in the list must implement the Comparable interface
   public static <T> void sort(List<T> list, Comparator<? super T> c) 
@@ -122,8 +126,9 @@ public static DoubleStream stream(double[] array)
   public static final <K,V> Map<K,V> emptyMap()
 
 
-*************************************************************************   java.lang.System  *******************************************************************************
-
+*****************************************************************************************************************************
+                                           java.lang.System
+*****************************************************************************************************************************
 
  public static native long currentTimeMillis()
  public static native long nanoTime();
@@ -139,7 +144,9 @@ public static DoubleStream stream(double[] array)
  public static void gc(){ Runtime.getRuntime().gc();}
 
 
-************************************************************************ interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
+*****************************************************************************************************************************
+                                      interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
+*****************************************************************************************************************************
 
  Stream<T> filter(Predicate<? super T> predicate);
 
@@ -205,7 +212,10 @@ public static DoubleStream stream(double[] array)
  public static<T> Stream<T> of(T... values)  Returns a sequential ordered stream whose elements are the specified values.
  public static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
 
-*******************************************************************    java.util.List ******************************************************************
+
+*****************************************************************************************************************************
+                                      java.util.List
+*****************************************************************************************************************************
 
    int size()
    boolean isEmpty()
@@ -242,8 +252,9 @@ public static DoubleStream stream(double[] array)
    static <E> List<E> copyOf(Collection<? extends E> coll)  retruns an unmodifiable list containing elements of given collection
   
 
-
-******************************************************************* java.util.Iterator  interface  ************************************************************
+*****************************************************************************************************************************
+                                      java.util.Iterator  interface 
+*****************************************************************************************************************************
 
   boolean hasNext()
   E next();
@@ -251,7 +262,10 @@ public static DoubleStream stream(double[] array)
   default void forEachRemaining(Consumer<? super E> action)
 
 
-************************************************************* java.lang.Iterable<T>  ****************************************************************************
+*****************************************************************************************************************************
+                                      java.lang.Iterable<T> 
+*****************************************************************************************************************************
+
 Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
    Collection<String> collection = ...; 
    for (String element: collection) {
@@ -265,7 +279,10 @@ Implementing this interface allows an object to be the target of the enhanced fo
  default Spliterator<T> spliterator()
 
 
-*******************************************************************    interface java.util.ListIterator<E> extends Iterator<E> **********************************
+*****************************************************************************************************************************
+                                     interface java.util.ListIterator<E> extends Iterator<E>
+*****************************************************************************************************************************
+
 
   boolean hasNext();
   E next();  NoSuchElementException if the iteration has no next element
@@ -278,8 +295,9 @@ Implementing this interface allows an object to be the target of the enhanced fo
   void set(E e); Replaces the last element returned by next or previous with the specified element
 
 
-
-****************************************************************    interface java.util.Set<E> extends Collection<E> *******************************************
+*****************************************************************************************************************************
+                                      interface java.util.Set<E> extends Collection<E>
+*****************************************************************************************************************************
 
   int size();
   boolean isEmpty();
@@ -300,7 +318,10 @@ Implementing this interface allows an object to be the target of the enhanced fo
   static <E> Set<E> copyOf(Collection<? extends E> coll) Returns an unmodifiable Set containing the elements of the given Collection.
 
 
-**************************************************************   java.util.Map<K, V>  *******************************************************************************
+*****************************************************************************************************************************
+                                      java.util.Map<K, V> 
+*****************************************************************************************************************************
+
     inner interface  interface Entry<K, V>     K getKey();     V getValue();   V setValue(V value);
     int size(); 
     boolean isEmpty();
@@ -329,8 +350,10 @@ Implementing this interface allows an object to be the target of the enhanced fo
 
    Map<String, Object> reverseTreeMap = new TreeMap<String, Object>(Collections.reverseOrder())
 
-*************************************************************Functional Interfaces ******************************************************************************
 
+*****************************************************************************************************************************
+                                    Functional Interfaces
+*****************************************************************************************************************************
 
 java.util.function.Consumer<T>  void accept(T t);   default Consumer<T> andThen(Consumer<? super T> after)
 java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
