@@ -1,7 +1,9 @@
 https://java2blog.com/java-coding-interview-questions/
 
-LEETCODE SELECTED 
 
+****************************************************
+LEETCODE SELECTED 
+***************************************************
 https://www.techinterviewhandbook.org/grind75
 https://leetcode.com/problem-list/5ju0l817/
 
@@ -15,37 +17,6 @@ https://medium.com/@abhishek.talakeriv/java-leetcode-solutions-part-1-efb531dbd7
 https://medium.com/@abhisheksinghjava/15-tips-to-make-your-java-application-run-faster-a0a7c569d10d
 
 
-
-
-
-
-
-
-
-
-Java Collections
-
-https://medium.com/@harendrakumarrajpoot5/top-50-java-collections-interview-questions-you-need-to-know-e55fcdc8dbfb
-
-
-
-
-
-Java 
-
-
-https://medium.com/@veenaraofr/frequently-asked-java-concept-programs-part1-5ba65ab82764
-https://anushasp07.medium.com/java-basic-comparison-questions-1-cd22a6a078b1
-https://medium.com/@codingwinner/top-200-java-interview-questions-in-2024-eb8f0ee15890
-
-
-
-
-
-Kafka
-https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
-https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
-https://blog.devops.dev/building-a-real-time-data-pipeline-with-kafka-snowflake-dbt-airflow-and-tableau-aebb03c6157c
 
 
 SQL 
