@@ -81,27 +81,34 @@
 
 
    https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2
+   
    https://medium.com/@veenaraofr/rest-and-microservices-interview-questions-10b420ac07ef
+   
    https://medium.com/@javadzone/top-50-spring-boot-interview-questions-and-answers-86644bef03e2
+   
    https://medium.com/@akintopbas96/refactoring-java-spring-boot-code-eliminating-if-else-statements-for-cleaner-extensible-logic-f1314cf9724e
+   
    https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-freshers-fc9392e232bd
+   
    https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
+   
    https://anushasp07.medium.com/interview-questions-on-spring-boot-2-b25fb0c54d83
+   
    https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-experienced-51fcb04eec17
+   
    https://medium.com/thefreshwrites/exception-handling-spring-boot-rest-api-c2656b575fee
+   
    https://cloud.spring.io/spring-cloud-stream/reference/html/spring-cloud-stream.html#_content_type_versus_argument_type
+   
    https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model#producer-service
+   
    https://medium.com/@kavyababu/configuring-multiple-datasources-in-spring-boot-application-b35967900434
+   
    https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model
+   
    https://docs.spring.io/spring-cloud-stream/docs/3.2.1/reference/html/spring-cloud-stream.html#consumer-groups
+   
    https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-spring-cloud-stream-19ff3477f6bc
-
-
-
-
-
-
-
 
 
 *********************************************************************************************************************
