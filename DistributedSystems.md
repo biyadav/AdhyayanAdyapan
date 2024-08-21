@@ -1,6 +1,6 @@
-*******************************************************
-System Design Guide 
-*******************************************************
+**************************************************************************************************************
+                         System Design Guide 
+**************************************************************************************************************
 https://refactoring.guru/design-patterns/proxy
 https://github.com/biyadav/system-design-101
 https://scaleyourapp.com/
@@ -32,11 +32,10 @@ https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffed
 
 
 
+**************************************************************************************************************
+                            MicroServices
+**************************************************************************************************************
 
-
-**********************************************************
-        MicroServices
-**********************************************************
 https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
 https://phaneendrakn.medium.com/microservices-design-patterns-series-part-1-5-2acf7797421e
 https://phaneendrakn.medium.com/microservices-design-patterns-series-part-2-5-e005e168b8b6
@@ -70,9 +69,10 @@ https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews
 
 
 
-***********************************************************************
-           Spring & Spring Boot 
-***********************************************************************
+************************************************************************************************************************************
+
+                                 Spring & Spring Boot 
+************************************************************************************************************************************
 
 https://www.youtube.com/watch?v=cZYJHIgmGaY&t=3392s
 https://www.youtube.com/watch?v=-_tPeb3VE6w&t=1073s
@@ -104,9 +104,9 @@ https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-sprin
 
 
 
-***********************************************************************************
-         DESIGNING XYZ
-***********************************************************************************
+*********************************************************************************************************************
+                                    DESIGNING XYZ
+*********************************************************************************************************************
 https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
 https://dilipkumar.medium.com/twitter-system-design-df991184c9a7
 https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
@@ -142,9 +142,9 @@ https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66
 
 
 
-**************************************************************************************
-  LLD of System Design 
-***************************************************************************************
+************************************************************************************************************************
+                                            LLD of System Design 
+*************************************************************************************************************************
 
 https://medium.com/@madhankumaravelu93/low-level-system-design-parking-lot-design-part-i-7567d510da1d
 
