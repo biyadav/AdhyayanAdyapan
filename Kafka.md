@@ -1,7 +1,7 @@
 spring.cloud.stream.kafka.bindings.<binding-name>.consumer.configuration.max.poll.interval.ms
 spring.cloud.stream.kafka.bindings.<binding-name>.consumer.configuration.max.poll.records
 
-to set a default value for all 
+to set a default value for all bindings
 
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.interval.ms
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.records
