@@ -124,24 +124,43 @@
                                     DESIGNING XYZ
 *********************************************************************************************************************
   https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
+  
   https://dilipkumar.medium.com/twitter-system-design-df991184c9a7
+  
   https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
+  
   https://medium.com/@krishnadalam/high-level-design-hld-for-a-food-delivery-app-3bdd9dd9a72d
+  
   https://medium.com/@tahir.rauf/system-design-uber-01e72f6d7444
+  
   https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392
+  
   https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03
+  
   https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3
+  
   https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418
+  
   https://medium.com/@jyoti1308/designing-payment-and-fraud-detection-service-82e3d8e89892
+  
   https://dilipkumar.medium.com/url-shortener-system-design-f5817b7e22ce
+  
   https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2
+  
   https://medium.com/@ishwarya1011.hidkimath/system-design-architect-a-world-wide-video-distribution-system-6b03b5b984e9
+  
   https://javascript.plainenglish.io/how-to-design-a-hotel-booking-system-56ef18b6adfc
+  
   https://medium.com/@ishwarya1011.hidkimath/system-design-music-streaming-services-64df330b5624
+  
   https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1
+  
   https://medium.com/@vaibhavkansagara/high-level-system-design-for-amazon-1aa18f3efd15
+  
   https://medium.com/@vaibhavkansagara/distributed-cache-system-design-2ee5e25a5000
+  
   https://medium.com/@rickymondal/rate-limiter-c647b40471b8
+  
   https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66
 
 
@@ -165,8 +184,12 @@
   https://medium.com/@madhankumaravelu93/low-level-system-design-parking-lot-design-part-i-7567d510da1d
 
   https://dev-shivansh95.medium.com/low-level-design-ecommerce-ff6454c9827f
+  
   https://dev-shivansh95.medium.com/low-level-design-for-bookmyshow-8db8465e560a
+  
   https://dev-shivansh95.medium.com/low-level-design-for-twitter-d254847880cb
+
   https://dev-shivansh95.medium.com/web-crawler-system-design-db15e01264d4
+  
   https://sumedhakhatter.medium.com/designing-a-notification-system-d8e539003b81
 
