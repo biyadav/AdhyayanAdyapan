@@ -2,33 +2,33 @@
                          System Design Guide 
 **************************************************************************************************************
    
-    https://refactoring.guru/design-patterns/proxy
-    https://github.com/biyadav/system-design-101
-    https://scaleyourapp.com/
-    https://www.youtube.com/c/codeKarle
-    https://www.youtube.com/@TechDummiesNarendraL
+   https://refactoring.guru/design-patterns/proxy
+   https://github.com/biyadav/system-design-101
+   https://scaleyourapp.com/
+   https://www.youtube.com/c/codeKarle
+   https://www.youtube.com/@TechDummiesNarendraL
 
 
 
-    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
-    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
-    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d
-    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-4-cache-5703c8a60499
-    https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-4-cache-5703c8a60499
+   https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f
 
 
-    https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
-    https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
-    https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
-    https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+   https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
+   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+   https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
+   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
 
-    https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
-    https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
-    https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
-    https://medium.com/@_sidharth_m_/understanding-cap-theorem-for-distributed-systems-b4eda255f803
-    https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
-    https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
-    https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
+   https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
+   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
+   https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
+   https://medium.com/@_sidharth_m_/understanding-cap-theorem-for-distributed-systems-b4eda255f803
+   https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
+   https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
+   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
 
 
 
