@@ -8,6 +8,7 @@
   https://blog.devops.dev/3-tier-ultimate-devops-cicd-pipeline-project-devops-project-44c35026ab2c  
   https://blog.devops.dev/networking-in-kubernetes-5bc2d574fd95
   https://blog.devops.dev/operational-efficiency-monitoring-and-analytics-setting-up-managed-metrics-using-prometheus-and-54d3cb86280e
+  
   https://blog.devops.dev/building-an-end-to-end-ci-cd-pipeline-with-jenkins-7ef2205d7988
 
 
