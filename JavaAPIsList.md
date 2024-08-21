@@ -82,14 +82,14 @@
  23. public static void fill(int[] a, int val)   Assigns the specified int value to each element of the specified array of ints.
  24. public static void fill(short[] a, short val)    Assigns the specified short value to each element of the specified array of shorts.
 
-25. public static int[] copyOf(int[] original, int newLength)
-26. public static <T> T[] copyOf(T[] original, int newLength)
+ 25. public static int[] copyOf(int[] original, int newLength)
+ 26. public static <T> T[] copyOf(T[] original, int newLength)
     
-27. public static <T> List<T> asList(T... a)
-28. public static <T> Stream<T> stream(T[] array)
-29. public static IntStream stream(int[] array)
-30. public static LongStream stream(long[] array)
-31. public static DoubleStream stream(double[] array)
+ 27. public static <T> List<T> asList(T... a)
+ 28. public static <T> Stream<T> stream(T[] array)
+ 29. public static IntStream stream(int[] array)
+ 30. public static LongStream stream(long[] array)
+ 31. public static DoubleStream stream(double[] array)
 
 
 *****************************************************************************************************************************
@@ -130,53 +130,54 @@
                                            java.lang.System
 *****************************************************************************************************************************
 
- public static native long currentTimeMillis()
- public static native long nanoTime();
- public static Properties getProperties()   keys  java.version,user.name,user.home,user.dir,file.separator,path.separator,line.separator
- public static String lineSeparator()
- public static void setProperties(Properties props)
- public static String setProperty(String key, String value)
- public static String getProperty(String key)
- public static String getProperty(String key, String default)
+  public static native long currentTimeMillis()
+  public static native long nanoTime();
+  public static Properties getProperties()   keys  java.version,user.name,user.home,user.dir,file.separator,path.separator,line.separator
+  public static String lineSeparator()
+  public static void setProperties(Properties props)
+  public static String setProperty(String key, String value)
+  public static String getProperty(String key)
+  public static String getProperty(String key, String default)
 
- public static String getenv(String name) Gets the value of the specified environment variable
- public static java.util.Map<String,String> getenv()
- public static void gc(){ Runtime.getRuntime().gc();}
+  public static String getenv(String name) Gets the value of the specified environment variable
+  public static java.util.Map<String,String> getenv()
+  public static void gc(){ Runtime.getRuntime().gc();}
 
 
 *****************************************************************************************************************************
                                       interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
 *****************************************************************************************************************************
 
- Stream<T> filter(Predicate<? super T> predicate);
+  Stream<T> filter(Predicate<? super T> predicate);
 
- <R> Stream<R> map(Function<? super T, ? extends R> mapper);
+  <R> Stream<R> map(Function<? super T, ? extends R> mapper);
 
- IntStream mapToInt(ToIntFunction<? super T> mapper) Returns an IntStream consisting of the results of applying the given function to the elements of this stream
+  IntStream mapToInt(ToIntFunction<? super T> mapper) Returns an IntStream consisting of the results of applying the given function to the elements of this stream
  
- LongStream mapToLong(ToLongFunction<? super T> mapper)
+  LongStream mapToLong(ToLongFunction<? super T> mapper)
 
- DoubleStream mapToDouble(ToDoubleFunction<? super T> mapper)
+  DoubleStream mapToDouble(ToDoubleFunction<? super T> mapper)
 
- <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
+  <R> Stream<R> flatMap(Function<? super T, ? extends Stream<? extends R>> mapper)
 
- IntStream flatMapToInt(Function<? super T, ? extends IntStream> mapper);
+  IntStream flatMapToInt(Function<? super T, ? extends IntStream> mapper);
 
- LongStream flatMapToLong(Function<? super T, ? extends LongStream> mapper)
+  LongStream flatMapToLong(Function<? super T, ? extends LongStream> mapper)
 
- Stream<T> distinct(); Returns a stream consisting of the distinct elements (according to Object.equals(Object)) of this stream.
+  Stream<T> distinct(); Returns a stream consisting of the distinct elements (according to Object.equals(Object)) of this stream.
 
- Stream<T> sorted(); Returns a stream consisting of the elements of this stream, sorted according to natural order
+  Stream<T> sorted(); Returns a stream consisting of the elements of this stream, sorted according to natural order
 
- Stream<T> sorted(Comparator<? super T> comparator);
+  Stream<T> sorted(Comparator<? super T> comparator);
 
- Stream<T> peek(Consumer<? super T> action); Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are consumed from the resulting stream.
+  Stream<T> peek(Consumer<? super T> action); Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are 
+     consumed from the resulting stream.
 
- Stream<T> limit(long maxSize); Returns a stream consisting of the elements of this stream, truncated to be no longer than maxSize in length.
+  Stream<T> limit(long maxSize); Returns a stream consisting of the elements of this stream, truncated to be no longer than maxSize in length.
 
- Stream<T> skip(long n); Returns a stream consisting of the remaining elements of this stream after discarding the first n elements of the stream
+  Stream<T> skip(long n); Returns a stream consisting of the remaining elements of this stream after discarding the first n elements of the stream
 
- void forEach(Consumer<? super T> action)
+  void forEach(Consumer<? super T> action)
 
  Object[] toArray();
 
@@ -197,86 +198,86 @@
        The following will classify Person objects by state and city, cascading two Collectors together:
        Map<String, Map<String, List<Person>>> peopleByStateAndCity = personStream.collect(Collectors.groupingBy(Person::getState,Collectors.groupingBy(Person::getCity)));
 
- default List<T> toList()  Accumulates the elements of this stream into a unmodifiable List
+  default List<T> toList()  Accumulates the elements of this stream into a unmodifiable List
 
- Optional<T> min(Comparator<? super T> comparator);
- Optional<T> max(Comparator<? super T> comparator);
- long count();
- boolean anyMatch(Predicate<? super T> predicate); Returns whether any elements of this stream match the provided predicate.
- boolean allMatch(Predicate<? super T> predicate); Returns whether all elements of this stream match the provided predicate.
- boolean noneMatch(Predicate<? super T> predicate); Returns whether no elements of this stream match the provided predicate.
- Optional<T> findFirst();
- Optional<T> findAny();
- public static<T> Stream<T> empty()  Returns an empty sequential Stream.
- public static<T> Stream<T> of(T t)  Returns a sequential Stream containing a single element.
- public static<T> Stream<T> of(T... values)  Returns a sequential ordered stream whose elements are the specified values.
- public static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
+  Optional<T> min(Comparator<? super T> comparator);
+  Optional<T> max(Comparator<? super T> comparator);
+  long count();
+  boolean anyMatch(Predicate<? super T> predicate); Returns whether any elements of this stream match the provided predicate.
+  boolean allMatch(Predicate<? super T> predicate); Returns whether all elements of this stream match the provided predicate.
+  boolean noneMatch(Predicate<? super T> predicate); Returns whether no elements of this stream match the provided predicate.
+  Optional<T> findFirst();
+  Optional<T> findAny();
+  public static<T> Stream<T> empty()  Returns an empty sequential Stream.
+  public static<T> Stream<T> of(T t)  Returns a sequential Stream containing a single element.
+  public static<T> Stream<T> of(T... values)  Returns a sequential ordered stream whose elements are the specified values.
+  public static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
 
 
 *****************************************************************************************************************************
                                       java.util.List
 *****************************************************************************************************************************
 
-   int size()
-   boolean isEmpty()
-   boolean contains(Object o)
-   Iterator<E> iterator()
-   Object[] toArray()
-   <T> T[] toArray(T[] a)
-   boolean add(E e)
-   default void addLast(E e)
-   default void addFirst(E e)
-   void add(int index, E element);
-   E get(int index)
-   default E getFirst()
-   default E getLast()
-   int indexOf(Object o);
-   int lastIndexOf(Object o);
-   static <E> List<E> of()   Returns an unmodifiable list containing zero elements
-   static <E> List<E> of(E e1)  Returns an unmodifiable list containing one element
-   static <E> List<E> of(E... elements) Returns an unmodifiable list containing an arbitrary number of elements
-   default E removeFirst()
-   default E removeLast()
-   boolean remove(Object o)  removes first occureence if exists else no change 
-   boolean containsAll(Collection<?> c);
-   boolean addAll(Collection<? extends E> c);   adds all elements of collection at end 
-   boolean addAll(int index, Collection<? extends E> c); adds all elements of collection at specified index and shifts the elements of original list
-   boolean removeAll(Collection<?> c);   Removes from this list all of its elements that are contained in the specified collection 
-   boolean retainAll(Collection<?> c);   removes from this list all of its elements that are not contained in the specified collection.
-   default void replaceAll(UnaryOperator<E> operator)  Replaces each element of this list with the result of applying the operator to that element.
-   default void sort(Comparator<? super E> c)
-   ListIterator<E> listIterator();
-   E set(int index, E element);
-   List<E> subList(int fromIndex, int toIndex); toIndex exclusive
-   void clear();
-   static <E> List<E> copyOf(Collection<? extends E> coll)  retruns an unmodifiable list containing elements of given collection
+    int size()
+    boolean isEmpty()
+    boolean contains(Object o)
+    Iterator<E> iterator()
+    Object[] toArray()
+    <T> T[] toArray(T[] a)
+    boolean add(E e)
+    default void addLast(E e)
+    default void addFirst(E e)
+    void add(int index, E element);
+    E get(int index)
+    default E getFirst()
+    default E getLast()
+    int indexOf(Object o);
+    int lastIndexOf(Object o);
+    static <E> List<E> of()   Returns an unmodifiable list containing zero elements
+    static <E> List<E> of(E e1)  Returns an unmodifiable list containing one element
+    static <E> List<E> of(E... elements) Returns an unmodifiable list containing an arbitrary number of elements
+    default E removeFirst()
+    default E removeLast()
+    boolean remove(Object o)  removes first occureence if exists else no change 
+    boolean containsAll(Collection<?> c);
+    boolean addAll(Collection<? extends E> c);   adds all elements of collection at end 
+    boolean addAll(int index, Collection<? extends E> c); adds all elements of collection at specified index and shifts the elements of original list
+    boolean removeAll(Collection<?> c);   Removes from this list all of its elements that are contained in the specified collection 
+    boolean retainAll(Collection<?> c);   removes from this list all of its elements that are not contained in the specified collection.
+    default void replaceAll(UnaryOperator<E> operator)  Replaces each element of this list with the result of applying the operator to that element.
+    default void sort(Comparator<? super E> c)
+    ListIterator<E> listIterator();
+    E set(int index, E element);
+    List<E> subList(int fromIndex, int toIndex); toIndex exclusive
+    void clear();
+    static <E> List<E> copyOf(Collection<? extends E> coll)  retruns an unmodifiable list containing elements of given collection
   
 
 *****************************************************************************************************************************
                                       java.util.Iterator  interface 
 *****************************************************************************************************************************
 
-  boolean hasNext()
-  E next();
-  default void remove()
-  default void forEachRemaining(Consumer<? super E> action)
+   boolean hasNext()
+   E next();
+   default void remove()
+   default void forEachRemaining(Consumer<? super E> action)
 
 
 *****************************************************************************************************************************
                                       java.lang.Iterable<T> 
 *****************************************************************************************************************************
 
-Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
-   Collection<String> collection = ...; 
-   for (String element: collection) {
-    // do someting with element
-   }
+  Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
+    Collection<String> collection = ...; 
+    for (String element: collection) {
+     // do someting with element
+    }
 
 
-Implementing this interface allows an object to be the target of the enhanced for statement (sometimes called the "for-each loop" statement)
- default void forEach(Consumer<? super T> action)
- Iterator<T> iterator();
- default Spliterator<T> spliterator()
+  Implementing this interface allows an object to be the target of the enhanced for statement (sometimes called the "for-each loop" statement)
+  default void forEach(Consumer<? super T> action)
+  Iterator<T> iterator();
+  default Spliterator<T> spliterator()
 
 
 *****************************************************************************************************************************
@@ -284,38 +285,38 @@ Implementing this interface allows an object to be the target of the enhanced fo
 *****************************************************************************************************************************
 
 
-  boolean hasNext();
-  E next();  NoSuchElementException if the iteration has no next element
-  boolean hasPrevious();
-  E previous();  NoSuchElementException if the iteration has no previous   element
-  int nextIndex();
-  int previousIndex();
-  void add(E e);
-  void remove();
-  void set(E e); Replaces the last element returned by next or previous with the specified element
+   boolean hasNext();
+   E next();  NoSuchElementException if the iteration has no next element
+   boolean hasPrevious();
+   E previous();  NoSuchElementException if the iteration has no previous   element
+   int nextIndex();
+   int previousIndex();
+   void add(E e);
+   void remove();
+   void set(E e); Replaces the last element returned by next or previous with the specified element
 
 
 *****************************************************************************************************************************
                                       interface java.util.Set<E> extends Collection<E>
 *****************************************************************************************************************************
 
-  int size();
-  boolean isEmpty();
-  boolean contains(Object o);
-  Iterator<E> iterator();
-  Object[] toArray();
-  <T> T[] toArray(T[] a);
-  boolean add(E e);
-  boolean remove(Object o);
-  boolean containsAll(Collection<?> c);
-  boolean addAll(Collection<? extends E> c);
-  boolean retainAll(Collection<?> c);
-  boolean removeAll(Collection<?> c);
-  void clear();
-  static <E> Set<E> of()   Returns an unmodifiable set containing zero elements.
-  static <E> Set<E> of(E e1)   Returns an unmodifiable set containing one element.
-  static <E> Set<E> of(E... elements)  Returns an unmodifiable set containing an arbitrary number of elements.
-  static <E> Set<E> copyOf(Collection<? extends E> coll) Returns an unmodifiable Set containing the elements of the given Collection.
+    int size();
+    boolean isEmpty();
+    boolean contains(Object o);
+    Iterator<E> iterator();
+    Object[] toArray();
+    <T> T[] toArray(T[] a);
+    boolean add(E e);
+    boolean remove(Object o);
+    boolean containsAll(Collection<?> c);
+    boolean addAll(Collection<? extends E> c);
+    boolean retainAll(Collection<?> c);
+    boolean removeAll(Collection<?> c);
+    void clear();
+    static <E> Set<E> of()   Returns an unmodifiable set containing zero elements.
+    static <E> Set<E> of(E e1)   Returns an unmodifiable set containing one element.
+    static <E> Set<E> of(E... elements)  Returns an unmodifiable set containing an arbitrary number of elements.
+    static <E> Set<E> copyOf(Collection<? extends E> coll) Returns an unmodifiable Set containing the elements of the given Collection.
 
 
 *****************************************************************************************************************************
@@ -355,8 +356,8 @@ Implementing this interface allows an object to be the target of the enhanced fo
                                     Functional Interfaces
 *****************************************************************************************************************************
 
-java.util.function.Consumer<T>  void accept(T t);   default Consumer<T> andThen(Consumer<? super T> after)
-java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
+     java.util.function.Consumer<T>  void accept(T t);   default Consumer<T> andThen(Consumer<? super T> after)
+     java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
 
 
 
@@ -372,4 +373,4 @@ java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<
 
 
 
-An Enumeration can be converted into an Iterator by using the Enumeration.asIterator method.
+ An Enumeration can be converted into an Iterator by using the Enumeration.asIterator method.
