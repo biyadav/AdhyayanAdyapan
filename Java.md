@@ -10,9 +10,9 @@ https://medium.com/@veenaraofr/frequently-asked-java-concept-programs-part2-8f03
 
 https://www.javabrahman.com/java-8/java-8-internal-iterators-vs-external-iterators/
 
-******************
-Java 8 Stream 
-******************
+******************************************************************************************
+                        Java 8 Stream 
+******************************************************************************************
 
 (https://medium.com/@veenaraofr/java8-stream-api-commonly-asked-questions-about-employee-highest-salary-99c21cec4d98)
 (https://medium.com/@abhishek.talakeriv/java8-stream-api-commonly-asked-interview-questions-part-2-863e5c808842)
@@ -30,11 +30,19 @@ Java 8 Stream
 (https://okanexe.medium.com/java-coding-interview-questions-1f8ad0e3684b)
 (https://medium.com/codeminds-ai/top-50-best-java-coding-interview-questions-you-need-to-know-b68977914b4a)
 
+************************************************************************************************
+                         JAVA Interview Questions
+************************************************************************************************
+
+https://medium.com/@harendrakumarrajpoot5/top-50-java-collections-interview-questions-you-need-to-know-e55fcdc8dbfb
+https://medium.com/@veenaraofr/frequently-asked-java-concept-programs-part1-5ba65ab82764
+https://anushasp07.medium.com/java-basic-comparison-questions-1-cd22a6a078b1
+https://medium.com/@codingwinner/top-200-java-interview-questions-in-2024-eb8f0ee15890
 
 
-***************************************************************
-Virtual Thread 
-***************************************************************
+***************************************************************************************************
+                          Virtual Thread 
+***************************************************************************************************
 (https://www.happycoders.eu/java/structured-concurrency-structuredtaskscope/)
 (https://docs.oracle.com/en/java/javase/21/core/structured-concurrency.html#GUID-CAC99F0A-8C9F-47D3-80BE-FFEBE7F2E300)
 (https://openjdk.org/jeps/444)
