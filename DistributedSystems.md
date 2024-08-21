@@ -45,6 +45,7 @@
                             MicroServices
 **************************************************************************************************************
 
+   https://www.f5.com/company/blog/nginx/introduction-to-microservices
    https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
    https://phaneendrakn.medium.com/microservices-design-patterns-series-part-1-5-2acf7797421e
    https://phaneendrakn.medium.com/microservices-design-patterns-series-part-2-5-e005e168b8b6
