@@ -16,10 +16,10 @@ https://medium.com/@priyasrivastava18official/starting-from-scratch-system-desig
 https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f
 
 
-https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
-https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
-https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
-https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+a. https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
+b. https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
+c. https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
+d. https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
 
 https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
 https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
