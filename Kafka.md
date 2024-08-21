@@ -65,10 +65,10 @@ We have observed kafka consumer group related issues in production.
 
 We found one probable cause for this issue.
  
-		We have added fix in bill run ( adding consumer group "consumerGroup" to topic “mayTopic” ).
+		We have added fix  ( adding consumer group "consumerGroup" to topic “myTopic” ).
 		Previously it was anonymous group.
 		
-		So, after latest deployment it might reprocess all existing events in “mayTopic” again
+		So, after latest deployment it might reprocess all existing events in “myTopic” again
 		and that caused to update billing cycles status to “Completed”.
  
                 Spring doc ref:
