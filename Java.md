@@ -62,6 +62,8 @@ https://medium.com/@codingwinner/top-200-java-interview-questions-in-2024-eb8f0e
 ***************************************************************************************************
 https://www.happycoders.eu/java/structured-concurrency-structuredtaskscope/
 
+https://www.linkedin.com/pulse/virtual-threads-new-solution-improve-concurrent-api-calls-liam-ford-qdakc/
+
 https://docs.oracle.com/en/java/javase/21/core/structured-concurrency.html#GUID-CAC99F0A-8C9F-47D3-80BE-FFEBE7F2E300
 
 https://openjdk.org/jeps/444
