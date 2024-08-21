@@ -2,6 +2,7 @@
                               Kubernetes and Helm
 *********************************************************************************************************************************************************************************
    https://v2.helm.sh/docs/chart_template_guide/
+   
    https://kodekloud.com/blog/helm-flow-control-and-conditionals/
    https://waytoeasylearn.com/category/helm/
    https://medium.com/stream-zero/100-kubernetes-diagnostics-commands-with-kubectl-a0cb7f9f0d6e
