@@ -257,27 +257,27 @@
                                       java.util.Iterator  interface 
 *****************************************************************************************************************************
 
-   boolean hasNext()
-   E next();
-   default void remove()
-   default void forEachRemaining(Consumer<? super E> action)
+    boolean hasNext()
+    E next();
+    default void remove()
+    default void forEachRemaining(Consumer<? super E> action)
 
 
 *****************************************************************************************************************************
                                       java.lang.Iterable<T> 
 *****************************************************************************************************************************
 
-  Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
-    Collection<String> collection = ...; 
-    for (String element: collection) {
-     // do someting with element
-    }
+   Collection Interface extends Iterable  and that is why you can iterate over any collection using this pattern
+     Collection<String> collection = ...; 
+     for (String element: collection) {
+      // do someting with element
+     }
 
 
-  Implementing this interface allows an object to be the target of the enhanced for statement (sometimes called the "for-each loop" statement)
-  default void forEach(Consumer<? super T> action)
-  Iterator<T> iterator();
-  default Spliterator<T> spliterator()
+   Implementing this interface allows an object to be the target of the enhanced for statement (sometimes called the "for-each loop" statement)
+   default void forEach(Consumer<? super T> action)
+   Iterator<T> iterator();
+   default Spliterator<T> spliterator()
 
 
 *****************************************************************************************************************************
@@ -285,15 +285,15 @@
 *****************************************************************************************************************************
 
 
-   boolean hasNext();
-   E next();  NoSuchElementException if the iteration has no next element
-   boolean hasPrevious();
-   E previous();  NoSuchElementException if the iteration has no previous   element
-   int nextIndex();
-   int previousIndex();
-   void add(E e);
-   void remove();
-   void set(E e); Replaces the last element returned by next or previous with the specified element
+    boolean hasNext();
+    E next();  NoSuchElementException if the iteration has no next element
+    boolean hasPrevious();
+    E previous();  NoSuchElementException if the iteration has no previous   element
+    int nextIndex();
+    int previousIndex();
+    void add(E e);
+    void remove();
+    void set(E e); Replaces the last element returned by next or previous with the specified element
 
 
 *****************************************************************************************************************************
@@ -356,8 +356,10 @@
                                     Functional Interfaces
 *****************************************************************************************************************************
 
-     java.util.function.Consumer<T>  void accept(T t);   default Consumer<T> andThen(Consumer<? super T> after)
-     java.util.function.Function<<T, R> >       R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
+      java.util.function.Consumer<T>  void accept(T t);   
+      default Consumer<T> andThen(Consumer<? super T> after)
+      java.util.function.Function<<T, R> >       
+      R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
 
 
 
