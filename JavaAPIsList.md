@@ -96,34 +96,35 @@
                                            java.util.Collections
 *****************************************************************************************************************************
 
-  public static <T extends Comparable<? super T>> void sort(List<T> list)  orts the specified list into ascending order, according to the natural ordering of its elements. All elements in the list must implement the Comparable interface
-  public static <T> void sort(List<T> list, Comparator<? super T> c) 
-  public static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)
+   public static <T extends Comparable<? super T>> void sort(List<T> list)  orts the specified list into ascending order, according to the natural ordering of its elements. All 
+   elements in the list must implement the Comparable interface
+   public static <T> void sort(List<T> list, Comparator<? super T> c) 
+   public static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)
 
-  public static <T> boolean addAll(Collection<? super T> c, T... elements)
-  public static <T> void fill(List<? super T> list, T obj)
-  public static <T> void copy(List<? super T> dest, List<? extends T> src)
-  public static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll)
-  public static <T> T min(Collection<? extends T> coll, Comparator<? super T> comp) 
-  public static <T extends Object & Comparable<? super T>> T max(Collection<? extends T> coll) 
-  public static <T> T max(Collection<? extends T> coll, Comparator<? super T> comp)
-  public static <T> boolean replaceAll(List<T> list, T oldVal, T newVal)
+   public static <T> boolean addAll(Collection<? super T> c, T... elements)
+   public static <T> void fill(List<? super T> list, T obj)
+   public static <T> void copy(List<? super T> dest, List<? extends T> src)
+   public static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll)
+   public static <T> T min(Collection<? extends T> coll, Comparator<? super T> comp) 
+   public static <T extends Object & Comparable<? super T>> T max(Collection<? extends T> coll) 
+   public static <T> T max(Collection<? extends T> coll, Comparator<? super T> comp)
+   public static <T> boolean replaceAll(List<T> list, T oldVal, T newVal)
 
-  public static <T> List<T> unmodifiableList(List<? extends T> list) 
-  public static <T> Set<T> unmodifiableSet(Set<? extends T> s)
-  public static <K,V> Map<K,V> unmodifiableMap(Map<? extends K, ? extends V> m)
-  public static <K,V> SortedMap<K,V> unmodifiableSortedMap(SortedMap<K, ? extends V> m)
-  public static <K,V> NavigableMap<K,V> unmodifiableNavigableMap(NavigableMap<K, ? extends V> m)
+   public static <T> List<T> unmodifiableList(List<? extends T> list) 
+   public static <T> Set<T> unmodifiableSet(Set<? extends T> s)
+   public static <K,V> Map<K,V> unmodifiableMap(Map<? extends K, ? extends V> m)
+   public static <K,V> SortedMap<K,V> unmodifiableSortedMap(SortedMap<K, ? extends V> m)
+   public static <K,V> NavigableMap<K,V> unmodifiableNavigableMap(NavigableMap<K, ? extends V> m)
+ 
+   public static <T> Collection<T> synchronizedCollection(Collection<T> c)
+   public static <T> Set<T> synchronizedSet(Set<T> s)
+   public static <T> List<T> synchronizedList(List<T> list) 
+   public static <K,V> Map<K,V> synchronizedMap(Map<K,V> m)
 
-  public static <T> Collection<T> synchronizedCollection(Collection<T> c)
-  public static <T> Set<T> synchronizedSet(Set<T> s)
-  public static <T> List<T> synchronizedList(List<T> list) 
-  public static <K,V> Map<K,V> synchronizedMap(Map<K,V> m)
-
-  public static final <T> Set<T> emptySet()
-  public static <E> SortedSet<E> emptySortedSet()
-  public static final <T> List<T> emptyList()
-  public static final <K,V> Map<K,V> emptyMap()
+   public static final <T> Set<T> emptySet()
+   public static <E> SortedSet<E> emptySortedSet()
+   public static final <T> List<T> emptyList()
+   public static final <K,V> Map<K,V> emptyMap()
 
 
 *****************************************************************************************************************************
