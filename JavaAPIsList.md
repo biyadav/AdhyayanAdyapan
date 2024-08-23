@@ -2,8 +2,8 @@
                                            java.lang.String
 *****************************************************************************************************************************
  0.   public char[] toCharArray()
- 1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument
- 2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.
+ 1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument// const
+ 2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.// const
  3.   public int length()
  4.   public boolean isEmpty()
  5.   public char charAt(int index)
