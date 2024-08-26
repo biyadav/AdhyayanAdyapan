@@ -13,6 +13,24 @@ KAFKA CONNECT
 https://kafka.apache.org/documentation/#connectconfigs
 https://rmoff.net/2019/08/15/reset-kafka-connect-source-connector-offsets/
 https://rmoff.net/2020/01/16/changing-the-logging-level-for-kafka-connect-dynamically/
+
+
+
+https://martinfowler.com/eaaDev/EventSourcing.html
+
+https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+
+https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-data-persistence/service-per-team.html
+
+https://www.confluent.io/blog/cdc-kafka-for-scalable-microservices-messaging/
+
+https://docs.couchbase.com/kafka-connector/current/source-configuration-options.html#couchbase.persistence.polling.interval
+
+Digital Search Pattern#IndexingDomainDataOnElasticsearch
+
+https://docs.couchbase.com/kafka-connector/current/delivery-guarantees.html
+
+https://docs.couchbase.com/kafka-connector/current/source-configuration-options.html#couchbase.persistence.polling.interval
 *********************************************************************************************************************
 https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
 https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
