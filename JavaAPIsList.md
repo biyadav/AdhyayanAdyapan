@@ -144,6 +144,8 @@
   public static java.util.Map<String,String> getenv()
   public static void gc(){ Runtime.getRuntime().gc();}
 
+  System.out.printf("%s arrived at time %d.%n", this, time);
+
 
 *****************************************************************************************************************************
                                       interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
