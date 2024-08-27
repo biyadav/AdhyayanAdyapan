@@ -60,6 +60,19 @@ https://medium.com/@codingwinner/top-200-java-interview-questions-in-2024-eb8f0e
 ***************************************************************************************************
                           Virtual Thread 
 ***************************************************************************************************
+
+https://github.com/aliakh/demo-java-virtual-threads
+
+https://medium.com/@RamLakshmanan/java-virtual-threads-easy-introduction-44d96b8270f8
+
+https://gist.github.com/diegopacheco/a81e6dc67de5548c670f6d360304ed80
+
+https://www.zymr.com/blog/threads-and-virtual-threads-demystifying-the-world-of-concurrency-in-modern-times
+
+https://www.infoq.com/articles/java-virtual-threads-a-case-study/
+
+https://dzone.com/articles/deep-dive-into-java-virtual-threads-a-game-changer
+
 https://www.youtube.com/live/QxxG66eQoTc?si=nzKewvCrGTotlDop
 
 https://www.happycoders.eu/java/structured-concurrency-structuredtaskscope/
