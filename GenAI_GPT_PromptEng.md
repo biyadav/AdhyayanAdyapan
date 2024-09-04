@@ -18,3 +18,7 @@ https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamenta
 https://learn.microsoft.com/en-us/training/modules/get-started-ai-fundamentals/
 
 https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/
+
+
+Azure 
+https://azure.microsoft.com/en-in/free/search/?ef_id=_k_CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE_k_&OCID=AIDcmm86ncqk20_SEM__k_CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE_k_&gad_source=1&gclid=CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE
