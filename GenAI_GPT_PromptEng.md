@@ -21,4 +21,6 @@ https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-int
 
 
 Azure 
+
+https://learn.microsoft.com/en-us/training/modules/build-language-solution-azure-openai/
 https://azure.microsoft.com/en-in/free/search/?ef_id=_k_CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE_k_&OCID=AIDcmm86ncqk20_SEM__k_CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE_k_&gad_source=1&gclid=CjwKCAjw59q2BhBOEiwAKc0ijQsBUhdrQwZZTh6LngjnLbG01HK5L79ckAVJX0SoPoChvDwfkv2WCRoCXRgQAvD_BwE
