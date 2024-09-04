@@ -9,6 +9,8 @@ https://azure.github.io/responsible-ai-hub/docs/azure-openai-playground/
 
 https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals
 
+https://learn.microsoft.com/en-us/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cpython-new&pivots=programming-language-studio
+
 https://learn.microsoft.com/en-us/training/courses/ai-900t00
 
 https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification
