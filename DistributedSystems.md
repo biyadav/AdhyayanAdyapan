@@ -7,7 +7,7 @@
    https://scaleyourapp.com/
    https://www.youtube.com/c/codeKarle
    https://www.youtube.com/@TechDummiesNarendraL
-
+   https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm
 
 
    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
