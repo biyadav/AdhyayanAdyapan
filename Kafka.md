@@ -6,9 +6,12 @@ to set a default value for all bindings
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.interval.ms
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.records
 
+# Kafka Advanced Topics 
 
+https://learn.conduktor.io/kafka/kafka-consumer-important-settings-poll-and-internal-threads-behavior/
+https://ibm-cloud-architecture.github.io/refarch-eda/patterns/cqrs/
 *********************************************************************************************************************
-KAFKA CONNECT
+# KAFKA CONNECT
 
 https://kafka.apache.org/documentation/#connectconfigs
 https://rmoff.net/2019/08/15/reset-kafka-connect-source-connector-offsets/
