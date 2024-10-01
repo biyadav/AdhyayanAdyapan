@@ -6,6 +6,17 @@ https://github.com/biyadav/system-design-101
 
 https://jaykay12.github.io/tech/design-patterns/
 
+https://www.geeksforgeeks.org/software-design-patterns/?ref=footer
+
+![image](https://github.com/user-attachments/assets/458c0856-ce11-4b30-8ab9-e2161b53fae7)
+
+![image](https://github.com/user-attachments/assets/57f0b50c-b814-48ef-9b4d-9c4535a2b35e)
+
+![image](https://github.com/user-attachments/assets/897cbb64-1191-4f41-ba5d-0184be78789c)
+
+
+
+
 
 What are Design Patterns:
 
