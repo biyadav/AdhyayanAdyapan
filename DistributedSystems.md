@@ -9,7 +9,7 @@
    https://www.youtube.com/@TechDummiesNarendraL
    https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm
 
-
+   https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/?ref=footer
    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
    
    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
