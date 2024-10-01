@@ -254,7 +254,20 @@
     List<E> subList(int fromIndex, int toIndex); toIndex exclusive
     void clear();
     static <E> List<E> copyOf(Collection<? extends E> coll)  retruns an unmodifiable list containing elements of given collection
-  
+
+
+*****************************************************************************************************************************
+                                      java.util.Stack   
+*****************************************************************************************************************************
+
+  Stack<E> stack = new Stack<E>();
+  public E push(E item)  add item to top 
+  public synchronized E pop() remove and retun top item
+  public synchronized E peek()  return top item without removing
+  public synchronized int search(Object o) return index of item searched 
+  public boolean empty()
+
+  iterable -- Collection-----List---->Vecor--->Stack
 
 *****************************************************************************************************************************
                                       java.util.Iterator  interface 
