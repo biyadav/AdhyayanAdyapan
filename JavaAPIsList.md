@@ -1,4 +1,20 @@
 *****************************************************************************************************************************
+                                           java.lang.Character
+*****************************************************************************************************************************
+
+
+ 1.   public static boolean isLetter(char ch)
+ 2.   public static boolean isDigit(int codePoint)
+ 3.   public static boolean isUpperCase(char ch)
+ 4.   public static boolean isLowerCase(char ch)
+ 5.   public static boolean isLetterOrDigit(int codePoint)
+ 6.   public static int getNumericValue(char ch)
+ 7.   public static boolean isSpace(char ch)
+
+
+
+
+*****************************************************************************************************************************
                                            java.lang.String
 *****************************************************************************************************************************
  0.   public char[] toCharArray()
@@ -7,17 +23,18 @@
  3.   public int length()
  4.   public boolean isEmpty()
  5.   public char charAt(int index)
- 6.   public boolean contentEquals(CharSequence cs)
- 7.   public boolean equalsIgnoreCase(String anotherString)
- 8.   public int compareTo(String anotherString)
- 9.   public boolean startsWith(String prefix, int toffset) offset>=0  Tests if the substring of this string beginning at the specified index starts with the specified prefix
- 10.  public boolean startsWith(String prefix) 
- 11.  public boolean endsWith(String suffix)
- 12.  public int indexOf(int ch)
- 13.  public int lastIndexOf(int ch)
- 14.  public int indexOf(String str)   Returns the index within this string of the first occurrence of the specified substring.
- 15.  public int lastIndexOf(String str)
- 16.  public String substring(int beginIndex)  0<=  beginIndex <= java.lang.Integer.MAX_VALUE
+ 6.   public IntStream chars()      str.chars().allMatch(Character::isLetter)  check if string only has alphabets
+ 7.   public boolean contentEquals(CharSequence cs)
+ 8.   public boolean equalsIgnoreCase(String anotherString)
+ 9.   public int compareTo(String anotherString)
+ 10.   public boolean startsWith(String prefix, int toffset) offset>=0  Tests if the substring of this string beginning at the specified index starts with the specified prefix
+ 11.  public boolean startsWith(String prefix) 
+ 12.  public boolean endsWith(String suffix)
+ 13.  public int indexOf(int ch)
+ 14.  public int lastIndexOf(int ch)
+ 15.  public int indexOf(String str)   Returns the index within this string of the first occurrence of the specified substring.
+ 16.  public int lastIndexOf(String str)
+ 17.  public String substring(int beginIndex)  0<=  beginIndex <= java.lang.Integer.MAX_VALUE
  17   public String substring(int beginIndex, int endIndex)  0<=   beginIndex/endIndex <= java.lang.Integer.MAX_VALUE
  18.  public CharSequence subSequence(int beginIndex, int endIndex)
  19.  public String concat(String str)
