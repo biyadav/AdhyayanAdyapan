@@ -474,8 +474,14 @@ public class Subject implements Comparable {
 }
         
 
-
-
+Sort in reverse Order 
+Comparator<Employee> employeeNameComparator
+      = Comparator.comparing(Employee::getName);
+    Comparator<Employee> employeeNameComparatorReversed 
+      = employeeNameComparator.reversed();
+    Arrays.sort(employees, employeeNameComparatorReversed);
+    assertTrue(Arrays.equals(employees, sortedEmployeesByNameDesc));
+}
 
 
 collect()
