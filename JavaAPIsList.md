@@ -41,11 +41,11 @@
  20.  public String concat(String str)
  21.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all 
       occurrences of oldChar in this string with newChar
- 22.  public boolean contains(CharSequence s)
- 23.  public boolean matches(String regex)
- 24.  public String replaceAll(String regex, String replacement)
+ 22.  public String replace(CharSequence target, CharSequence replacement)
+ 23.  public String replaceAll(String regex, String replacement)
+ 24.  public boolean contains(CharSequence s)
  25.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
- 26.  public String replace(CharSequence target, CharSequence replacement)
+ 26.  public boolean matches(String regex)
  27.  public static String join(CharSequence delimiter, CharSequence... elements)
  28.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
          List<String> strings = List.of("Java", "is", "cool");  String message = String.join(" ", strings);  // message returned is: "Java is cool"    Set<String> strings =      new LinkedHashSet<>(List.of("Java", "is", "very", "cool"));  String message = String.join("-", strings);  // message returned is: "Java-is-very-cool"
@@ -67,8 +67,8 @@
       public static String valueOf(double d)
       
  35.  public native String intern(); Returns a canonical representation for the string object. A pool of strings, initially empty, is maintained privately by the class String.
- 12.  public int hashCode()
- 13. public int indexOf(int ch)
+ 36.  public int hashCode()
+ 37. public int indexOf(int ch)
 
 *****************************************************************************************************************************
                                            java.util.Arrays 
