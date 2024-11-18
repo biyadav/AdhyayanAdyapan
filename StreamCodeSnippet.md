@@ -15,14 +15,13 @@ https://medium.com/edureka/java-collections-interview-questions-6d20f552773e
 
 <b>  Streams Code   Examples </b>
 
-java.util.stream.Collectors Implementations of Collector that implement various useful reduction operations, such as accumulating elements into collections, summarizing elements according to various criteria, etc
-Collectors is a utility class that provides various implementations of reduction operations such as grouping elements, collecting elements to different collections, summarizing elements according to various criteria, etc. 
+java.util.stream.Collectors  is a utility class that provides various implementations of reduction operations such as grouping elements, collecting elements to different collections, summarizing elements according to various criteria, etc. 
     The different functionalities in the Collectors class are usually used as the final operations on streams.
     // Accumulate names into a List  List<String> list = people.stream().map(Person::getName).collect(Collectors.toList());
     // Accumulate names into a TreeSet  Set<String> set = people.stream().map(Person::getName).collect(Collectors.toCollection(TreeSet::new));  
     // Convert elements to strings and concatenate them, separated by commas  
        String joined = things.stream().map(Object::toString).collect(Collectors.joining(", "));  
-       String joined = things.stream().map(Object::toString).collect(Collectors.joining(", ","",""));  
+       String joined = things.stream().map(Object::toString).collect(Collectors.joining(", ","",""));  // delemeter , prefix, suffix
     // Compute sum of salaries of employee  int total = employees.stream().collect(Collectors.summingInt(Employee::getSalary));  
    // Group employees by department  Map<Department, List<Employee>> byDept = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment));  
    // Compute sum of salaries by department  Map<Department, Integer> totalByDept = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.summingInt(Employee::getSalary)));
