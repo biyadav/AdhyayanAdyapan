@@ -188,7 +188,7 @@
 
   Stream<T> sorted(); Returns a stream consisting of the elements of this stream, sorted according to natural order
 
-  Stream<T> sorted(Comparator<? super T> comparator);
+  Stream<T> sorted(Comparator<? super T> comparator);  // Comparator.comparing(Employee:: getName)
 
   Stream<T> peek(Consumer<? super T> action); Returns a stream consisting of the elements of this stream, additionally performing the provided action on each element as elements are 
      consumed from the resulting stream.
@@ -389,10 +389,15 @@
                                     Functional Interfaces
 *****************************************************************************************************************************
 
+      public interface Consumer<T> 
       java.util.function.Consumer<T>  void accept(T t);   
       default Consumer<T> andThen(Consumer<? super T> after)
+
+
+      
       java.util.function.Function<<T, R> >       
-      R apply(T t);    static <T> Function<T, T> identity() {  return t -> t; }
+      R apply(T t);    
+      static <T> Function<T, T> identity() {  return t -> t; }
 
 
 
