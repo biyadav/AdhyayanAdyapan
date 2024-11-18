@@ -35,19 +35,21 @@
  15.  public int indexOf(int ch)
  16.  public int lastIndexOf(int ch)
  17.  public String substring(int beginIndex)  0<=  beginIndex <= java.lang.Integer.MAX_VALUE
- 17   public String substring(int beginIndex, int endIndex)  0<=   beginIndex/endIndex <= java.lang.Integer.MAX_VALUE
- 18.  public CharSequence subSequence(int beginIndex, int endIndex)
- 19.  public String concat(String str)
- 20.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all occurrences of oldChar in this string with newChar
- 21.  public boolean contains(CharSequence s)
- 22.  public boolean matches(String regex)
- 23.  public String replaceAll(String regex, String replacement)
- 24.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
- 25.  public String replace(CharSequence target, CharSequence replacement)
- 26.  public static String join(CharSequence delimiter, CharSequence... elements)
- 27.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
+ 18.  public String substring(int beginIndex, int endIndex)  0<=   beginIndex/endIndex <= 
+      java.lang.Integer.MAX_VALUE
+ 19.  public CharSequence subSequence(int beginIndex, int endIndex)
+ 20.  public String concat(String str)
+ 21.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all 
+      occurrences of oldChar in this string with newChar
+ 22.  public boolean contains(CharSequence s)
+ 23.  public boolean matches(String regex)
+ 24.  public String replaceAll(String regex, String replacement)
+ 25.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
+ 26.  public String replace(CharSequence target, CharSequence replacement)
+ 27.  public static String join(CharSequence delimiter, CharSequence... elements)
+ 28.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
          List<String> strings = List.of("Java", "is", "cool");  String message = String.join(" ", strings);  // message returned is: "Java is cool"    Set<String> strings =      new LinkedHashSet<>(List.of("Java", "is", "very", "cool"));  String message = String.join("-", strings);  // message returned is: "Java-is-very-cool"
- 28.  public String toLowerCase()
+ 29.  public String toLowerCase()
  30.  public String toUpperCase()
  31.  public String trim()
  32.  public boolean isBlank()   Returns true if the string is empty or contains only white space codepoints, otherwise false.
