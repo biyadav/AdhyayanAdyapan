@@ -30,10 +30,10 @@
  10.   public boolean startsWith(String prefix, int toffset) offset>=0  Tests if the substring of this string beginning at the specified index starts with the specified prefix
  11.  public boolean startsWith(String prefix) 
  12.  public boolean endsWith(String suffix)
- 13.  public int indexOf(int ch)
- 14.  public int lastIndexOf(int ch)
- 15.  public int indexOf(String str)   Returns the index within this string of the first occurrence of the specified substring.
- 16.  public int lastIndexOf(String str)
+ 13.  public int indexOf(String str)   Returns the index within this string of the first occurrence of the specified substring.
+ 14.  public int lastIndexOf(String str)
+ 15.  public int indexOf(int ch)
+ 16.  public int lastIndexOf(int ch)
  17.  public String substring(int beginIndex)  0<=  beginIndex <= java.lang.Integer.MAX_VALUE
  17   public String substring(int beginIndex, int endIndex)  0<=   beginIndex/endIndex <= java.lang.Integer.MAX_VALUE
  18.  public CharSequence subSequence(int beginIndex, int endIndex)
