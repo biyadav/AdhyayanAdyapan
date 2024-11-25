@@ -115,8 +115,8 @@
                                            java.util.Collections
 *****************************************************************************************************************************
 
-   public static <T extends Comparable<? super T>> void sort(List<T> list)  orts the specified list into ascending order, according to the natural ordering of its elements. All 
-   elements in the list must implement the Comparable interface
+   public static <T extends Comparable<? super T>> void sort(List<T> list)  orts the specified list into ascending order, according to the 
+     natural ordering of its elements. All elements in the list must implement the Comparable interface
    public static <T> void sort(List<T> list, Comparator<? super T> c) 
    public static <T> int binarySearch(List<? extends Comparable<? super T>> list, T key)
 
@@ -152,7 +152,7 @@
 
   public static native long currentTimeMillis()
   public static native long nanoTime();
-  public static Properties getProperties()   keys  java.version,user.name,user.home,user.dir,file.separator,path.separator,line.separator
+  public static Properties getProperties() keys: java.version,user.name,user.home,user.dir,file.separator,path.separator,line.separator
   public static String lineSeparator()
   public static void setProperties(Properties props)
   public static String setProperty(String key, String value)
@@ -169,12 +169,15 @@
 *****************************************************************************************************************************
                                       interface  java.util.stream.Stream<T> extends BaseStream<T, Stream<T>>
 *****************************************************************************************************************************
-
+  If we want to make each element in the parallel stream to be ordered, we can use the forEachOrdered() method, instead of the forEach() 
+  method.
+  
   Stream<T> filter(Predicate<? super T> predicate);
 
   <R> Stream<R> map(Function<? super T, ? extends R> mapper);
 
-  IntStream mapToInt(ToIntFunction<? super T> mapper) Returns an IntStream consisting of the results of applying the given function to the elements of this stream
+  IntStream mapToInt(ToIntFunction<? super T> mapper) Returns an IntStream consisting of the results of applying the given function to the 
+  elements of this stream
  
   LongStream mapToLong(ToLongFunction<? super T> mapper)
 
