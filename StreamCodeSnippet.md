@@ -22,6 +22,8 @@ java.util.stream.Collectors  is a utility class that provides various implementa
     // Convert elements to strings and concatenate them, separated by commas  
        String joined = things.stream().map(Object::toString).collect(Collectors.joining(", "));  
        String joined = things.stream().map(Object::toString).collect(Collectors.joining(", ","",""));  // delemeter , prefix, suffix
+       Map<BlogPostType, String> postsPerType = posts.stream()
+         .collect(groupingBy(BlogPost::getType, mapping(BlogPost::getTitle, joining(", ", "Post titles: [","]"))));
     // Compute sum of salaries of employee  int total = employees.stream().collect(Collectors.summingInt(Employee::getSalary));  
    // Group employees by department  Map<Department, List<Employee>> byDept = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment));  
    // Compute sum of salaries by department  Map<Department, Integer> totalByDept = employees.stream().collect(Collectors.groupingBy(Employee::getDepartment,Collectors.summingInt(Employee::getSalary)));
