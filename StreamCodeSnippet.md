@@ -46,7 +46,16 @@ List<Integer> list = Stream.of(12, 13, 14, 15)
     (l, e) -> l.add(e),
     //Combiner
     (l, ar) -> l.addAll(ar)
-);        
+);      
+
+
+ List<Integer> list = Arrays.asList(1, 2, 3);
+ Boolean empty = list.stream()
+     .collect(collectingAndThen(
+        toList(),
+        List::isEmpty
+     )
+ );
   
    String longestName = people.stream()
     .collect(collectingAndThen(
