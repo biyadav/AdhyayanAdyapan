@@ -504,6 +504,22 @@ Comparator<Employee> employeeNameComparator
 }
 
 
+
+
+
+
+26 .
+
+The reducing() collectors are most useful when used in a multi-level reduction, downstream of groupingBy or partitioningBy. To perform a simple map-reduce on a stream, use Stream.map(Function) and Stream.reduce(Object, BinaryOperator) instead.
+For example, given a stream of Person, to calculate the longest last name of residents in each city:
+
+
+     Comparator<String> byLength = Comparator.comparing(String::length);
+     Map<City, String> longestLastNameByCity
+         = people.stream().collect(groupingBy(Person::getCity,
+                                              reducing(Person::getLastName, BinaryOperator.maxBy(byLength))));
+
+                                              
 collect()
 forEach()
 forEachOrdered()
