@@ -432,7 +432,11 @@ String desiredString = sj. toString();
 
 
 
-
+#When to Use Each
+   Use Enhanced For-Loop: When you need simple iteration, better performance for small datasets, or need to modify the collection during 
+   iteration.
+  Use Streams: When you need to perform complex data transformations, want to leverage parallel processing, or prefer a functional 
+  programming style12.
 
 
 
