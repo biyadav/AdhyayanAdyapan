@@ -1,5 +1,5 @@
 https://java2blog.com/java-coding-interview-questions/
-
+https://javaconceptoftheday.com/java-interview-programs-with-solutions/
 
 *******************************************************************************************************
 LEETCODE SELECTED 
