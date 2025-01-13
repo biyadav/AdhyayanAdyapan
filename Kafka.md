@@ -7,6 +7,7 @@ spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.inter
 spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.records
 
 # Kafka Advanced Topics 
+https://medium.com/@t.m.h.v.eijk/list/kafka-the-definitive-guide-ad3ff24f54ea
 https://medium.com/bakdata/solving-my-weird-kafka-rebalancing-problems-c05e99535435
 https://medium.com/streamthoughts/apache-kafka-rebalance-protocol-or-the-magic-behind-your-streams-applications-e94baf68e4f2
 https://learn.conduktor.io/kafka/kafka-consumer-important-settings-poll-and-internal-threads-behavior/
