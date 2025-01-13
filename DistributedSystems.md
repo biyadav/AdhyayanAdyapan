@@ -1,7 +1,8 @@
 **************************************************************************************************************
                          System Design Guide 
 **************************************************************************************************************
-   
+
+   https://systemdesignschool.io/primer#core-design-challenges
    https://refactoring.guru/design-patterns/proxy
    https://github.com/biyadav/system-design-101
    https://scaleyourapp.com/
