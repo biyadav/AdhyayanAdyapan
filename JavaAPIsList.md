@@ -4,12 +4,15 @@
 
 
  1.   public static boolean isLetter(char ch)
- 2.   public static boolean isDigit(int codePoint)
- 3.   public static boolean isUpperCase(char ch)
- 4.   public static boolean isLowerCase(char ch)
- 5.   public static boolean isLetterOrDigit(int codePoint)
- 6.   public static int getNumericValue(char ch)
- 7.   public static boolean isSpace(char ch)
+ 2.   public static boolean isDigit(char ch)   /   isDigit(int codePoint)  this int is typecast to int from char
+ 3.   public static char toLowerCase(char ch)
+ 4.   public static char toUpperCase(char ch)
+ 5.   public static boolean isUpperCase(char ch)
+ 6.   public static boolean isLowerCase(char ch)
+ 7.   public static boolean isLetterOrDigit(int codePoint)
+ 8.   public static int getNumericValue(char ch)
+ 9.   public static boolean isSpace(char ch)
+ 10.   public static boolean isJavaIdentifierStart(char)
 
 
 
@@ -21,12 +24,12 @@
  1.   public String(char value[]) Allocates a new String so that it represents the sequence of characters currently contained in the character array argument// const
  2.   public String(StringBuilder builder) Allocates a new string that contains the sequence of characters currently contained in the string builder argument.// const
  3.   public int length()
- 4.   public boolean isEmpty()
+ 4.   public boolean isEmpty()    
  5.   public char charAt(int index)
  6.   public IntStream chars()      str.chars().allMatch(Character::isLetter)  check if string only has alphabets
  7.   public boolean contentEquals(CharSequence cs)
  8.   public boolean equalsIgnoreCase(String anotherString)
- 9.   public int compareTo(String anotherString)
+ 9.   public int compareTo(String anotherString)   public int compareToIgnoreCase(String str)
  10.   public boolean startsWith(String prefix, int toffset) offset>=0  Tests if the substring of this string beginning at the specified index starts with the specified prefix
  11.  public boolean startsWith(String prefix) 
  12.  public boolean endsWith(String suffix)
@@ -42,7 +45,7 @@
  21.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all 
       occurrences of oldChar in this string with newChar
  22.  public String replace(CharSequence target, CharSequence replacement)
- 23.  public String replaceAll(String regex, String replacement)
+ 23.  public String replaceAll(String regex, String replacement)   public String replaceFirst(String regex, String replacement) 
  24.  public boolean contains(CharSequence s)
  25.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
  26.  public boolean matches(String regex)
@@ -68,7 +71,9 @@
       
  35.  public native String intern(); Returns a canonical representation for the string object. A pool of strings, initially empty, is maintained privately by the class String.
  36.  public int hashCode()
- 37. public int indexOf(int ch)
+ 37. public int indexOf(char ch)  // (String pattern)  index of the first occurrence of the character in the character sequence
+ 38. public int lastIndexOf(char ch) // (String pattern)   public int lastIndexOf(String str)
+ 39. 
 
 *****************************************************************************************************************************
                                            java.util.Arrays 
