@@ -232,18 +232,19 @@
   default List<T> toList()  Accumulates the elements of this stream into a unmodifiable List
 
   Optional<T> min(Comparator<? super T> comparator);
-  Optional<T> max(Comparator<? super T> comparator);
+  Optional<T> max(Comparator<? super T> comparator); use Comparator.comparing(Emp::getName)
   long count();
   boolean anyMatch(Predicate<? super T> predicate); Returns whether any elements of this stream match the provided predicate.
   boolean allMatch(Predicate<? super T> predicate); Returns whether all elements of this stream match the provided predicate.
   boolean noneMatch(Predicate<? super T> predicate); Returns whether no elements of this stream match the provided predicate.
   Optional<T> findFirst();
   Optional<T> findAny();
+  Stream<T> skip(long n);
   public static<T> Stream<T> empty()  Returns an empty sequential Stream.
   public static<T> Stream<T> of(T t)  Returns a sequential Stream containing a single element.
   public static<T> Stream<T> of(T... values)  Returns a sequential ordered stream whose elements are the specified values.
   public static <T> Stream<T> concat(Stream<? extends T> a, Stream<? extends T> b)
-
+  T reduce(T identity, BinaryOperator<T> accumulator);  Integer sum = integerStream. reduce(0, (a, b) -> a+b);
 
 *****************************************************************************************************************************
                                       java.util.List
@@ -400,17 +401,24 @@
                                     Functional Interfaces
 *****************************************************************************************************************************
 
-      public interface Consumer<T> 
-      java.util.function.Consumer<T>  void accept(T t);   
-      default Consumer<T> andThen(Consumer<? super T> after)
+     # public interface Consumer<T> 
+        java.util.function.Consumer<T>  void accept(T t);   
+        default Consumer<T> andThen(Consumer<? super T> after)
 
 
       
-      java.util.function.Function<<T, R> >       
-      R apply(T t);    
-      static <T> Function<T, T> identity() {  return t -> t; }
+     # java.util.function.Function<<T, R> >       
+        R apply(T t);    
+        static <T> Function<T, T> identity() {  return t -> t; }
 
+     # java.util.Comparator<T>
+         int compare(T o1, T o2);
+         default Comparator<T> reversed()
+         public static <T, U extends Comparable<? super U>> Comparator<T> comparing(Function<? super T, ? extends U> keyExtractor)
+         default Comparator<T> thenComparing(Comparator<? super T> other)
+         default <U extends Comparable<? super U>> Comparator<T> thenComparing(Function<? super T, ? extends U> keyExtractor)
 
+        Comparator<String> cmp = Comparator.comparingInt(String::length).thenComparing(String. CASE_INSENSITIVE_ORDER);
 *****************************************************************************************************************************
                                     java.util.StringJoiner
 *****************************************************************************************************************************
