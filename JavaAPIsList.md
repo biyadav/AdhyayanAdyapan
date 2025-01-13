@@ -45,22 +45,23 @@
  21.  public String replace(char oldChar, char newChar)  Returns a string resulting from replacing all 
       occurrences of oldChar in this string with newChar
  22.  public String replace(CharSequence target, CharSequence replacement)
- 23.  public String replaceAll(String regex, String replacement)   public String replaceFirst(String regex, String replacement) 
- 24.  public boolean contains(CharSequence s)
- 25.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
- 26.  public boolean matches(String regex)
- 27.  public static String join(CharSequence delimiter, CharSequence... elements)
- 28.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
+ 23.  public String replaceAll(String regex, String replacement)
+ 24.  public String replaceFirst(String regex, String replacement)
+ 25.  public boolean contains(CharSequence s)
+ 26.  public String[] split(String regex)  "boo:and:foo".split(":") gives  { "boo", "and", "foo" }
+ 27.  public boolean matches(String regex)
+ 28.  public static String join(CharSequence delimiter, CharSequence... elements)
+ 29.  public static String join(CharSequence delimiter,Iterable<? extends CharSequence> elements) Returns a new String composed of copies of the CharSequence elements joined together with a copy of the specified delimiter.
          List<String> strings = List.of("Java", "is", "cool");  String message = String.join(" ", strings);  // message returned is: "Java is cool"    Set<String> strings =      new LinkedHashSet<>(List.of("Java", "is", "very", "cool"));  String message = String.join("-", strings);  // message returned is: "Java-is-very-cool"
- 29.  public String toLowerCase()
- 30.  public String toUpperCase()
- 31.  public String trim()
- 32.  public boolean isBlank()   Returns true if the string is empty or contains only white space codepoints, otherwise false.
- 33.  public static String format(String format, Object... args)
+ 30.  public String toLowerCase()
+ 31.  public String toUpperCase()
+ 32.  public String trim()
+ 33.  public boolean isBlank()   Returns true if the string is empty or contains only white space codepoints, otherwise false.
+ 34.  public static String format(String format, Object... args)
       String.format("Missing mandatory field %s.", errorFields);
       String.format("current size %d is less than fixed size %d",curSize, array.length)
       String.format("Input value is not a multiple of referenceSize :  %d. Size: %d", referenceSize, inputSize))
- 34.  public static String valueOf(char data[])
+ 35.  public static String valueOf(char data[])
       public static String valueOf(Object obj)  Returns the string representation of the Object argument  or "null"
       public static String valueOf(boolean b)
       public static String valueOf(char c) 
@@ -69,11 +70,11 @@
       public static String valueOf(float f)
       public static String valueOf(double d)
       
- 35.  public native String intern(); Returns a canonical representation for the string object. A pool of strings, initially empty, is maintained privately by the class String.
- 36.  public int hashCode()
- 37. public int indexOf(char ch)  // (String pattern)  index of the first occurrence of the character in the character sequence
- 38. public int lastIndexOf(char ch) // (String pattern)   public int lastIndexOf(String str)
- 39. 
+ 36.  public native String intern(); Returns a canonical representation for the string object. A pool of strings, initially empty, is maintained privately by the class String.
+ 37.  public int hashCode()
+ 38. public int indexOf(char ch)  // (String pattern)  index of the first occurrence of the character in the character sequence
+ 39. public int lastIndexOf(char ch) // (String pattern)   public int lastIndexOf(String str)
+ 40. 
 
 *****************************************************************************************************************************
                                            java.util.Arrays 
