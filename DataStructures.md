@@ -6,6 +6,8 @@ https://howtodoinjava.com/interview-questions/interview-puzzles-coding-exercises
 
 https://javaconceptoftheday.com/java-interview-programs-with-solutions/
 
+https://github.com/PacktPublishing/The-Complete-Coding-Interview-Guide-in-Java
+
 *******************************************************************************************************
 LEETCODE SELECTED 
 ******************************************************************************************************
