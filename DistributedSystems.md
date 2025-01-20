@@ -3,14 +3,21 @@
 **************************************************************************************************************
 
    https://systemdesignschool.io/primer#core-design-challenges
+   
    https://refactoring.guru/design-patterns/proxy
+   
    https://github.com/biyadav/system-design-101
+   
    https://scaleyourapp.com/
+   
    https://www.youtube.com/c/codeKarle
+   
    https://www.youtube.com/@TechDummiesNarendraL
+   
    https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm
 
    https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/?ref=footer
+   
    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
    
    https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
@@ -45,6 +52,7 @@
 **************************************************************************************************************
                             MicroServices
 **************************************************************************************************************
+   https://github.com/orgs/udemy-dev-withK8s-AWS-codedecode/repositories
 
    https://www.f5.com/company/blog/nginx/introduction-to-microservices
    https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
