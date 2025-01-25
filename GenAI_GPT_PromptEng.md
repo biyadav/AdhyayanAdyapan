@@ -1,3 +1,14 @@
+# ARTIFICIAL INTELLIGENCE
+
+https://learn.deeplearning.ai/courses/langchain/lesson/1/introduction
+https://learn.deeplearning.ai/courses/functions-tools-agents-langchain/lesson/1/introduction
+https://learn.deeplearning.ai/courses/functions-tools-agents-langchain/lesson/1/introduction
+https://amdocsglobal.udemy.com/course/langchain-for-developers-using-openai-llms-in-python/?src=sac&kw=python+for+ge
+
+
+
+
+
 # Machine Learning
 
 https://www.geeksforgeeks.org/machine-learning/?ref=shm
