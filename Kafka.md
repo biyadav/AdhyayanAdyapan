@@ -48,9 +48,10 @@ https://docs.couchbase.com/kafka-connector/current/delivery-guarantees.html
 https://docs.couchbase.com/kafka-connector/current/source-configuration-options.html#couchbase.persistence.polling.interval
 *********************************************************************************************************************
 https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
-https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
-https://blog.devops.dev/building-a-real-time-data-pipeline-with-kafka-snowflake-dbt-airflow-and-tableau-aebb03c6157c
 
+https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
+
+https://blog.devops.dev/building-a-real-time-data-pipeline-with-kafka-snowflake-dbt-airflow-and-tableau-aebb03c6157c
 
 
 https://www.baeldung.com/spring-kafka
