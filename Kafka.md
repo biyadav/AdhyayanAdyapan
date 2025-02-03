@@ -8,16 +8,25 @@ spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.recor
 
 # Kafka Advanced Topics 
 https://medium.com/@t.m.h.v.eijk/list/kafka-the-definitive-guide-ad3ff24f54ea
+
+https://www.confluent.io/blog/kafka-consumer-multi-threaded-messaging/
+
 https://medium.com/bakdata/solving-my-weird-kafka-rebalancing-problems-c05e99535435
+
 https://medium.com/streamthoughts/apache-kafka-rebalance-protocol-or-the-magic-behind-your-streams-applications-e94baf68e4f2
+
 https://learn.conduktor.io/kafka/kafka-consumer-important-settings-poll-and-internal-threads-behavior/
+
 https://www.redpanda.com/guides/kafka-performance-kafka-rebalancing
+
 https://ibm-cloud-architecture.github.io/refarch-eda/patterns/cqrs/
 *********************************************************************************************************************
 # KAFKA CONNECT
 
 https://kafka.apache.org/documentation/#connectconfigs
+
 https://rmoff.net/2019/08/15/reset-kafka-connect-source-connector-offsets/
+
 https://rmoff.net/2020/01/16/changing-the-logging-level-for-kafka-connect-dynamically/
 
 
