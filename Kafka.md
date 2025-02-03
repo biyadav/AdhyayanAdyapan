@@ -9,6 +9,8 @@ spring.cloud.stream.kafka.bindings.default.consumer.configuration.max.poll.recor
 # Kafka Advanced Topics 
 https://medium.com/@t.m.h.v.eijk/list/kafka-the-definitive-guide-ad3ff24f54ea
 
+https://medium.com/agoda-engineering/how-we-solve-load-balancing-challenges-in-apache-kafka-8cd88fdad02b
+
 https://www.confluent.io/blog/kafka-consumer-multi-threaded-messaging/
 
 https://medium.com/bakdata/solving-my-weird-kafka-rebalancing-problems-c05e99535435
