@@ -13,6 +13,14 @@
    
    https://www.youtube.com/c/codeKarle
    
+
+   https://medium.com/@goyalarchana17/system-design-cheat-sheet-what-why-and-how-tos-part-1-343380c488bf
+   
+   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-2-1b51f71e4d12
+   
+   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-3-c7aab7cce554
+
+   
    https://www.youtube.com/@TechDummiesNarendraL
    
    https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm
