@@ -1,7 +1,8 @@
 **************************************************************************************************************
                          System Design Guide 
 **************************************************************************************************************
-
+   https://medium.com/javarevisited/system-design-cheatsheet-4607e716db5a
+   
    https://systemdesignschool.io/primer#core-design-challenges
    
    https://refactoring.guru/design-patterns/proxy
