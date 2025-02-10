@@ -80,42 +80,22 @@
                                            java.util.Arrays 
 *****************************************************************************************************************************
 
-
- 1.  public static void sort(Object[] a)  Sorts the specified array of objects into ascending order, according to the natural ordering of its elements. All elements in the array must 
-       implement the Comparable interface.
- 2.  public static void sort(int[] a)
- 3.  public static void sort(long[] a)
- 4.  public static void sort(short[] a)
- 5.  public static void sort(char[] a)
- 6.  public static void sort(float[] a)
- 7.  public static void sort(double[] a)
-    
- 9.  public static void parallelSort(short[] a)
- 10. public static void parallelSort(int[] a)
- 11. public static void parallelSort(long[] a)
- 12. public static void parallelSort(float[] a)
-     
- 14. public static int binarySearch(long[] a, long key)
- 15. public static boolean equals(int[] a, int[] a2)
- 16. public static boolean equals(short[] a, short a2[]) 
- 17. public static boolean equals(char[] a, char[] a2)
- 18. public static boolean equals(boolean[] a, boolean[] a2)
- 19. public static boolean equals(double[] a, double[] a2)
- 20. public static boolean equals(float[] a, float[] a2)
-     
- 22. public static void fill(long[] a, long val)  Assigns the specified long value to each element of the specified array of longs.
- 23. public static void fill(int[] a, int val)   Assigns the specified int value to each element of the specified array of ints.
- 24. public static void fill(short[] a, short val)    Assigns the specified short value to each element of the specified array of shorts.
-
- 25. public static int[] copyOf(int[] original, int newLength)
- 26. public static <T> T[] copyOf(T[] original, int newLength)
-    
- 27. public static <T> List<T> asList(T... a)
- 28. public static <T> Stream<T> stream(T[] array)
- 29. public static IntStream stream(int[] array)
- 30. public static LongStream stream(long[] array)
- 31. public static DoubleStream stream(double[] array)
-
+ 1.  public static void sort(Object[] a)  Sorts the specified array of objects into ascending order, according to the natural ordering of its elements. All elements in the array 
+     must implement the Comparable interface.
+ 2.  public static void sort(int[] a) //  for long , short,char,float,double as well 
+ 3.  public static void parallelSort(int[] a) //  for long , short,char,float,double as well
+ 4.  public static int binarySearch(long[] a, long key)
+ 5.  public static boolean equals(int[] a, int[] a2) // same for two arrays of type short,char,boolean,double,float
+ 6.  public static void fill(int[] a, int val)   Assigns the specified int value to each element of the specified array of ints.  
+ 7.  public static <T> List<T> asList(T... a)
+ 8.  public static <T> Stream<T> stream(T[] array)
+ 9.  public static IntStream stream(int[] array)
+ 10. public static LongStream stream(long[] array)
+ 11. public static DoubleStream stream(double[] array)
+ 12. Arrays.toString(Array)
+ 13. Arrays.copyOfRange(inputArray,leftInclusive,rightExclusix)
+ 14. public static int[] copyOf(int[] original, int newLength)
+ 15. public static <T> T[] copyOf(T[] original, int newLength)
 
 *****************************************************************************************************************************
                                            java.util.Collections
