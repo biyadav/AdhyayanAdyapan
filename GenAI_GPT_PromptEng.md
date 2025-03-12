@@ -1,5 +1,7 @@
 # ARTIFICIAL INTELLIGENCE
 
+https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/interview_prep/60_gen_ai_questions.md
+
 https://learn.deeplearning.ai/courses/langchain/lesson/1/introduction
 
 https://learn.deeplearning.ai/courses/functions-tools-agents-langchain/lesson/1/introduction
