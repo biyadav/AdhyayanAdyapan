@@ -76,7 +76,7 @@ We have observed kafka consumer group related issues in production.
                 And below is our observation for those issues.
  
                 Issue 1:
-                                Account has observed lag for a particular topic.
+                                WE have observed lag for a particular topic.
                 
 	                Cause : We found out the topic has a no consumer group. So every new instance is creating an anonymous group 
 	                                And old anonymous groups are idle and we have observed a lag.
@@ -86,7 +86,7 @@ We have observed kafka consumer group related issues in production.
 	                Soln : Most of the subscribers are multi instances in prod( we have atleast 3 minimum pods ), so adding group name is the best practise wherever necessary.
  
                Issue 2: 
-                                After upgrading prod env from 22-07 to 22-12. we have observed processing of old data again for some topic.
+                                After upgrading  from  one version to higher version . we have observed processing of old data again for some topic.
  
                                 cause: We have observed a change in consumer group name for that topic.
                                                 Whenever a new group name is added, by default it will start consuming from earliest.
@@ -97,7 +97,7 @@ We have observed kafka consumer group related issues in production.
                                                 Config:
                                                                 spring.cloud.stream.kafka.bindings.<channelName>.consumer.startOffset = latest
                                                 
-                                                                startOffset
+                                               startOffset: 
 						The starting offset for new groups. Allowed values: earliest and latest. If the consumer group is set explicitly for the consumer 'binding' (through spring.cloud.stream.bindings.<channelName>.group), 'startOffset' is set to earliest. Otherwise, it is set to latest for the anonymous consumer group. Also see resetOffsets (earlier in this list).
 						Default: null (equivalent to earliest).
                                                 Soln : Please cross check while changing consumer groups if old group already in prod
@@ -112,7 +112,7 @@ We found one probable cause for this issue.
  
                 Spring doc ref:
                 
-                startOffset
+                startOffset: 
 		The starting offset for new groups. Allowed values: earliest and latest. If the consumer group is set explicitly for the consumer 'binding' (through spring.cloud.stream.bindings.<channelName>.group), 'startOffset' is set to earliest. Otherwise, it is set to latest for the anonymous consumer group. Also see resetOffsets (earlier in this list).
 		Default: null (equivalent to earliest).
                 https://cloud.spring.io/spring-cloud-static/spring-cloud-stream-binder-kafka/2.2.0.M1/spring-cloud-stream-binder-kafka.html
