@@ -49,6 +49,9 @@ https://docs.couchbase.com/kafka-connector/current/delivery-guarantees.html
 
 https://docs.couchbase.com/kafka-connector/current/source-configuration-options.html#couchbase.persistence.polling.interval
 *********************************************************************************************************************
+
+https://medium.com/cloud-native-daily/how-i-dealt-with-the-kafka-issue-8c8e98fa1759
+
 https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
 
 https://medium.com/stream-zero/understanding-message-delivery-in-kafka-with-multiple-partitions-f9df4a32d498
