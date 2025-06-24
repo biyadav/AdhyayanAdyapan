@@ -32,9 +32,9 @@ https://medium.com/@raviyasas/useful-git-commands-for-developers-ea9353654325
  # Kubernetes 
 
 *********************************************************************************************************************************************************************************
-https://overcast.blog/13-kubernetes-configurations-you-should-know-in-2024-54eec72f307e
-https://overcast.blog/13-advanced-kubernetes-interview-questions-for-2024-953683603df1
-https://www.naukri.com/code360/library/kubernetes-interview-questions
-https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions
-https://www.practical-devsecops.com/kubernetes-interview-questions/
-https://www.turing.com/interview-questions/kubernetes
+1. https://overcast.blog/13-kubernetes-configurations-you-should-know-in-2024-54eec72f307e
+2. https://overcast.blog/13-advanced-kubernetes-interview-questions-for-2024-953683603df1
+3. https://www.naukri.com/code360/library/kubernetes-interview-questions
+4. https://www.simplilearn.com/tutorials/kubernetes-tutorial/kubernetes-interview-questions
+5. https://www.practical-devsecops.com/kubernetes-interview-questions/
+6 .https://www.turing.com/interview-questions/kubernetes
