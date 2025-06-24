@@ -1,5 +1,5 @@
 *********************************************************************************************************************************************************************************
-                              Kubernetes and Helm
+                              Kubernetes and Helm  https://github.com/lei-hsia/beautiful-books/blob/master/Kubernetes_book.pdf
 *********************************************************************************************************************************************************************************
    1. https://v2.helm.sh/docs/chart_template_guide
    2. https://kodekloud.com/blog/helm-flow-control-and-conditionals/
