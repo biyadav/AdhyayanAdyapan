@@ -23,9 +23,10 @@
 
 <b>  Streams Code   Examples </b>
 
-java.util.stream.Collectors  is a utility class that provides various implementations of reduction operations such as grouping elements, collecting elements to different collections, summarizing elements according to various criteria, etc. 
+java.util.stream.Collectors  is a utility class that provides various implementations of reduction operations such as grouping elements, collecting elements to different collections, summarizing elements according to various criteria, etc.  
     The different functionalities in the Collectors class are usually used as the final operations on streams.
-    // Accumulate names into a List  List<String> list = people.stream().map(Person::getName).collect(Collectors.toList());
+    // Accumulate names into a List  List<String> list = people.stream().map(Person::getName).collect(Collectors.toList());  
+    
     // Accumulate names into a TreeSet  Set<String> set = people.stream().map(Person::getName).collect(Collectors.toCollection(TreeSet::new));  
     // Convert elements to strings and concatenate them, separated by commas  
        String joined = things.stream().map(Object::toString).collect(Collectors.joining(", "));  
