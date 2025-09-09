@@ -3,59 +3,60 @@
 **************************************************************************************************************
    https://dev.to/wittedtech-by-harshit/system-design-of-youtube-a-detailed-deep-dive-into-the-video-giant-5019  
    
-   https://medium.com/javarevisited/system-design-cheatsheet-4607e716db5a
+   https://medium.com/javarevisited/system-design-cheatsheet-4607e716db5a  
    
-   https://systemdesignschool.io/primer#core-design-challenges
+   https://systemdesignschool.io/primer#core-design-challenges  
    
-   https://refactoring.guru/design-patterns/proxy
+   https://refactoring.guru/design-patterns/proxy  
+
+   https://bytebytego.com/guides/a-cheatsheet-to-build-secure-apis/  
    
-   https://github.com/biyadav/system-design-101
+   https://github.com/biyadav/system-design-101  
    
-   https://scaleyourapp.com/
+   https://scaleyourapp.com/  
    
-   https://www.youtube.com/c/codeKarle
+   https://www.youtube.com/c/codeKarle  
    
 
-   https://medium.com/@goyalarchana17/system-design-cheat-sheet-what-why-and-how-tos-part-1-343380c488bf
+   https://medium.com/@goyalarchana17/system-design-cheat-sheet-what-why-and-how-tos-part-1-343380c488bf  
    
-   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-2-1b51f71e4d12
+   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-2-1b51f71e4d12  
    
-   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-3-c7aab7cce554
+   https://medium.com/@goyalarchana17/system-design-cheatsheet-what-why-and-how-tos-part-3-c7aab7cce554  
 
    
-   https://www.youtube.com/@TechDummiesNarendraL
+   https://www.youtube.com/@TechDummiesNarendraL  
    
-   https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm
+   https://www.geeksforgeeks.org/system-design-tutorial/?ref=shm  
 
-   https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/?ref=footer
+   https://www.geeksforgeeks.org/system-design-interview-bootcamp-guide/?ref=footer  
    
-   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-1-2fec913f6eac  
    
-   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-2-api-gateway-b1375972574d  
    
-   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-3-load-balancer-79088e93447d  
    
-   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-4-cache-5703c8a60499
+   https://medium.com/@priyasrivastava18official/starting-from-scratch-system-design-lesson-4-cache-5703c8a60499  
    
-   https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f
+   https://medium.com/@priyasrivastava18official/system-design-concepts-77d439a3842f  
 
+   https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22  
+   
+   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af  
+   
+   https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76  
+   
+   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af  
 
-   https://blog.umer-farooq.com/system-design-for-beginners-part-i-getting-started-238d67c76a22
+   https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab  
    
-   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
-   
-   https://blog.umer-farooq.com/system-design-for-beginners-part-iii-database-scalability-with-use-cases-b9c765c8e76
-   
-   https://blog.umer-farooq.com/system-design-for-beginners-part-ii-understanding-the-3-tier-architecture-using-everyday-analogies-f2e6537d04af
-
-   https://medium.com/@amitvsolutions/the-software-architect-deep-dive-into-17-essential-design-patterns-a0fb5a4726ab
-   
-   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
-   https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde
-   https://medium.com/@_sidharth_m_/understanding-cap-theorem-for-distributed-systems-b4eda255f803
-   https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224
-   https://anil-gudigar.medium.com/system-design-tips-62c26366cf48
-   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33
+   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33  
+   https://anil-gudigar.medium.com/blueprint-of-modern-react-native-app-architecture-ba432deffdde  
+   https://medium.com/@_sidharth_m_/understanding-cap-theorem-for-distributed-systems-b4eda255f803  
+   https://www.educative.io/path/scalability-system-design?affiliate_id=5073518643380224  
+   https://anil-gudigar.medium.com/system-design-tips-62c26366cf48  
+   https://medium.com/javarevisited/most-used-distributed-system-patterns-d5d90ffedf33  
 
 
 
@@ -64,38 +65,38 @@
                             MicroServices
 **************************************************************************************************************
    https://github.com/orgs/udemy-dev-withK8s-AWS-codedecode/repositories
+  
+   https://www.f5.com/company/blog/nginx/introduction-to-microservices  
+   https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39  
+   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-1-5-2acf7797421e  
+   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-2-5-e005e168b8b6  
+   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-3-5-decd94e7e811  
+   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-4-5-bc8bce476226  
+   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-5-5-6229686ba59d  
 
-   https://www.f5.com/company/blog/nginx/introduction-to-microservices
-   https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
-   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-1-5-2acf7797421e
-   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-2-5-e005e168b8b6
-   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-3-5-decd94e7e811
-   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-4-5-bc8bce476226
-   https://phaneendrakn.medium.com/microservices-design-patterns-series-part-5-5-6229686ba59d
+   https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323  
+   https://medium.com/@craftingcode/top-microservices-interview-questions-and-answers-for-2024-2535cd61d17a  
+   https://medium.com/design-microservices-architecture-with-patterns/microservices-architecture-2bec9da7d42a  
+   https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb  
+   https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39  
 
-   https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
-   https://medium.com/@craftingcode/top-microservices-interview-questions-and-answers-for-2024-2535cd61d17a
-   https://medium.com/design-microservices-architecture-with-patterns/microservices-architecture-2bec9da7d42a
-   https://medium.com/@a.zagarella/microservices-architecture-a-real-business-world-scenario-c77c31a957fb
-   https://dev.to/somadevtoo/19-microservices-patterns-for-system-design-interviews-3o39
-
-@SpringBootApplication
- @RestController
- @RequestMapping
- @GetMapping
- @PostMapping
- @Autowired
- @Component
- @Service
- @Repository
- @Configuration
- @Bean
- @Primary
- @Qualifier
- @Value
- @Profile
- @EnableScheduling
- @EnableAsync
+@SpringBootApplication  
+ @RestController  
+ @RequestMapping  
+ @GetMapping  
+ @PostMapping  
+ @Autowired  
+ @Component  
+ @Service  
+ @Repository  
+ @Configuration  
+ @Bean  
+ @Primary  
+ @Qualifier  
+ @Value  
+ @Profile  
+ @EnableScheduling  
+ @EnableAsync  
 
 
 
@@ -104,85 +105,85 @@
                                  Spring & Spring Boot 
 ************************************************************************************************************************************
 
-   https://www.youtube.com/watch?v=cZYJHIgmGaY&t=3392s
-   https://www.youtube.com/watch?v=-_tPeb3VE6w&t=1073s
+   https://www.youtube.com/watch?v=cZYJHIgmGaY&t=3392s  
+   https://www.youtube.com/watch?v=-_tPeb3VE6w&t=1073s  
 
-   https://medium.com/@ands0927/spring-boot-pessimistic-lock-f773bc120e00
+   https://medium.com/@ands0927/spring-boot-pessimistic-lock-f773bc120e00  
 
 
-   https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2
+   https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2  
    
-   https://medium.com/@veenaraofr/rest-and-microservices-interview-questions-10b420ac07ef
+   https://medium.com/@veenaraofr/rest-and-microservices-interview-questions-10b420ac07ef  
    
-   https://medium.com/@javadzone/top-50-spring-boot-interview-questions-and-answers-86644bef03e2
+   https://medium.com/@javadzone/top-50-spring-boot-interview-questions-and-answers-86644bef03e2  
    
-   https://medium.com/@akintopbas96/refactoring-java-spring-boot-code-eliminating-if-else-statements-for-cleaner-extensible-logic-f1314cf9724e
+   https://medium.com/@akintopbas96/refactoring-java-spring-boot-code-eliminating-if-else-statements-for-cleaner-extensible-logic-f1314cf9724e  
    
-   https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-freshers-fc9392e232bd
+   https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-freshers-fc9392e232bd  
    
-   https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323
+   https://medium.com/@codingwinner/top-25-microservices-interview-questions-and-answers-e072febfe323  
    
-   https://anushasp07.medium.com/interview-questions-on-spring-boot-2-b25fb0c54d83
+   https://anushasp07.medium.com/interview-questions-on-spring-boot-2-b25fb0c54d83  
    
-   https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-experienced-51fcb04eec17
+   https://medium.com/@codingwinner/common-spring-boot-interview-questions-and-answers-2024-for-experienced-51fcb04eec17  
    
-   https://medium.com/thefreshwrites/exception-handling-spring-boot-rest-api-c2656b575fee
+   https://medium.com/thefreshwrites/exception-handling-spring-boot-rest-api-c2656b575fee  
    
-   https://cloud.spring.io/spring-cloud-stream/reference/html/spring-cloud-stream.html#_content_type_versus_argument_type
+   https://cloud.spring.io/spring-cloud-stream/reference/html/spring-cloud-stream.html#_content_type_versus_argument_type  
    
-   https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model#producer-service
+   https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model#producer-service  
    
-   https://medium.com/@kavyababu/configuring-multiple-datasources-in-spring-boot-application-b35967900434
+   https://medium.com/@kavyababu/configuring-multiple-datasources-in-spring-boot-application-b35967900434  
    
-   https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model
+   https://www.ideas2it.com/blogs/spring-cloud-streams-using-function-based-model  
    
-   https://docs.spring.io/spring-cloud-stream/docs/3.2.1/reference/html/spring-cloud-stream.html#consumer-groups
+   https://docs.spring.io/spring-cloud-stream/docs/3.2.1/reference/html/spring-cloud-stream.html#consumer-groups  
    
-   https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-spring-cloud-stream-19ff3477f6bc
+   https://ishansoninitj.medium.com/introduction-to-spring-cloud-function-and-spring-cloud-stream-19ff3477f6bc  
 
 
 *********************************************************************************************************************
                                     DESIGNING XYZ
 *********************************************************************************************************************
-  https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd
+  https://durgesh0607.medium.com/tinder-system-design-and-architecture-5853b6ed50bd  
   
-  https://dilipkumar.medium.com/twitter-system-design-df991184c9a7
+  https://dilipkumar.medium.com/twitter-system-design-df991184c9a7  
   
-  https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255
+  https://medium.com/@in10se/system-design-payment-service-for-an-e-commerce-platform-e0ac0f056255  
   
-  https://medium.com/@krishnadalam/high-level-design-hld-for-a-food-delivery-app-3bdd9dd9a72d
+  https://medium.com/@krishnadalam/high-level-design-hld-for-a-food-delivery-app-3bdd9dd9a72d  
   
-  https://medium.com/@tahir.rauf/system-design-uber-01e72f6d7444
+  https://medium.com/@tahir.rauf/system-design-uber-01e72f6d7444  
   
-  https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392
+  https://medium.com/geekculture/system-design-design-a-rate-limiter-81d200c9d392  
   
-  https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03
+  https://souravsnigdha.medium.com/designing-a-payment-system-part-1-6b53732d7e03  
   
-  https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3
+  https://souravsnigdha.medium.com/designing-a-payment-system-part-2-aa3e16aec1c3  
   
-  https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418
+  https://souravsnigdha.medium.com/designing-a-payment-system-final-part-3266a9594418  
   
-  https://medium.com/@jyoti1308/designing-payment-and-fraud-detection-service-82e3d8e89892
+  https://medium.com/@jyoti1308/designing-payment-and-fraud-detection-service-82e3d8e89892  
   
-  https://dilipkumar.medium.com/url-shortener-system-design-f5817b7e22ce
+  https://dilipkumar.medium.com/url-shortener-system-design-f5817b7e22ce  
   
-  https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2
+  https://medium.com/@ishwarya1011.hidkimath/system-design-top-k-songs-played-on-music-streaming-applications-12d7104834d2  
   
-  https://medium.com/@ishwarya1011.hidkimath/system-design-architect-a-world-wide-video-distribution-system-6b03b5b984e9
+  https://medium.com/@ishwarya1011.hidkimath/system-design-architect-a-world-wide-video-distribution-system-6b03b5b984e9  
   
-  https://javascript.plainenglish.io/how-to-design-a-hotel-booking-system-56ef18b6adfc
+  https://javascript.plainenglish.io/how-to-design-a-hotel-booking-system-56ef18b6adfc  
   
-  https://medium.com/@ishwarya1011.hidkimath/system-design-music-streaming-services-64df330b5624
+  https://medium.com/@ishwarya1011.hidkimath/system-design-music-streaming-services-64df330b5624  
   
-  https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1
+  https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1  
   
-  https://medium.com/@vaibhavkansagara/high-level-system-design-for-amazon-1aa18f3efd15
+  https://medium.com/@vaibhavkansagara/high-level-system-design-for-amazon-1aa18f3efd15  
   
-  https://medium.com/@vaibhavkansagara/distributed-cache-system-design-2ee5e25a5000
+  https://medium.com/@vaibhavkansagara/distributed-cache-system-design-2ee5e25a5000  
   
-  https://medium.com/@rickymondal/rate-limiter-c647b40471b8
+  https://medium.com/@rickymondal/rate-limiter-c647b40471b8  
   
-  https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66
+  https://akhileshmj.medium.com/lld-7-api-rate-limiter-2a41c327ac66  
 
 
 
@@ -202,15 +203,15 @@
                                             LLD of System Design 
 *************************************************************************************************************************
 
-  https://medium.com/@madhankumaravelu93/low-level-system-design-parking-lot-design-part-i-7567d510da1d
+  https://medium.com/@madhankumaravelu93/low-level-system-design-parking-lot-design-part-i-7567d510da1d  
 
-  https://dev-shivansh95.medium.com/low-level-design-ecommerce-ff6454c9827f
+  https://dev-shivansh95.medium.com/low-level-design-ecommerce-ff6454c9827f  
   
-  https://dev-shivansh95.medium.com/low-level-design-for-bookmyshow-8db8465e560a
+  https://dev-shivansh95.medium.com/low-level-design-for-bookmyshow-8db8465e560a  
   
-  https://dev-shivansh95.medium.com/low-level-design-for-twitter-d254847880cb
+  https://dev-shivansh95.medium.com/low-level-design-for-twitter-d254847880cb  
 
-  https://dev-shivansh95.medium.com/web-crawler-system-design-db15e01264d4
+  https://dev-shivansh95.medium.com/web-crawler-system-design-db15e01264d4  
   
-  https://sumedhakhatter.medium.com/designing-a-notification-system-d8e539003b81
+  https://sumedhakhatter.medium.com/designing-a-notification-system-d8e539003b81  
 
