@@ -18,6 +18,8 @@ https://leetcode.com/problem-list/5ju0l817/
 
 https://medium.com/javarevisited/15-leetcode-problems-to-get-better-at-linked-list-4c5aa8cd4a11
 
+https://observabilityguy.medium.com/these-16-dsa-patterns-did-what-3000-leetcode-problems-couldnt-374b18ab29e3
+
 https://medium.com/@mukhopadhyaypushan42/solve-dp-problems-like-butter-c6022e39f422
 
 https://medium.com/edureka/data-structures-algorithms-in-java-d27e915db1c5
