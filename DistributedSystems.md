@@ -1,6 +1,8 @@
 **************************************************************************************************************
                          System Design Guide 
 **************************************************************************************************************
+   https://dev.to/wittedtech-by-harshit/system-design-of-youtube-a-detailed-deep-dive-into-the-video-giant-5019  
+   
    https://medium.com/javarevisited/system-design-cheatsheet-4607e716db5a
    
    https://systemdesignschool.io/primer#core-design-challenges
